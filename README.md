@@ -32,7 +32,56 @@
 <h4>🔹 Programación por Bloques</h4>
 <p>La programación por bloques es una forma sencilla de programar en la que se usan bloques visuales en lugar de escribir código. Estos bloques representan instrucciones y se encajan como piezas de un rompecabezas para decirle a la computadora qué hacer. Es más fácil de aprender porque evita errores de escritura y ayuda a entender la lógica de la programación. Se usa mucho en programas educativos y para principiantes.</p> 2.</p>
     <ul>
-      <li><b>Actividad 1.1:</b> [Descripción de la actividad]</li>
+      <li><b>Actividad 1.1:</b> <h3>🛠️ Evidencia Práctica o Aplicación (Caso Práctico)</h3>
+
+<h4>1. Planteamiento del Problema</h4>
+<p><i>[Por favor, escribe aquí el enunciado del problema matemático o lógico de la Unidad 2 proporcionado por tu profesor en clase]</i></p>
+
+<h4>2. Análisis del Problema</h4>
+<ul>
+  <li><b>Entradas:</b> [Ej. Variable de inicio, cantidad de datos a procesar, límite]</li>
+  <li><b>Procesos:</b> [Ej. Evaluación de si un número es par dentro de un bucle que va de 1 a N]</li>
+  <li><b>Salidas:</b> [Ej. Impresión de los resultados calculados]</li>
+</ul>
+
+<h4>3. Diseño del Algoritmo (Diagrama de Flujo)</h4>
+<p>A continuación se visualiza la lógica gráfica del algoritmo desarrollado:</p>
+
+<!-- Asegúrate de subir tu diagrama a tu repositorio de GitHub y enlazarlo correctamente reemplazando 'diagrama.png' -->
+<p align="center">
+  <img src="diagrama.png" alt="[Diagrama de Flujo de la Unidad 2]" width="500" style="border: 1px solid #ddd; border-radius: 5px;"/>
+</p>
+
+<h4>4. Codificación (Código Fuente)</h4>
+<p>Implementación de la solución práctica utilizando el lenguaje de programación establecido en el aula de clase:</p>
+
+
+# Reemplaza 'python' con 'cpp', 'java' u otro lenguaje de tu asignatura si es diferente.
+# Pega tu código fuente estructurado aquí.
+
+def calcular_totales():
+    # Ejemplo ilustrativo de estructura condicional y repetitiva combinadas
+    suma = 0
+    for i in range(1, 11):
+        if i % 2 == 0:
+            suma += i
+            print(f"Número par acumulado: {i}")
+    print(f"La suma total es: {suma}")
+
+if __name__ == "__main__":
+    calcular_totales()
+
+
+<h4>5. Validación (Prueba de Escritorio)</h4>
+<p>Verificación manual de la ejecución secuencial de las variables clave del algoritmo:</p>
+
+| Iteración | Variable (Control) | Condición Evaluada | Variable (Acumulador) | Salida en Pantalla |
+| :---: | :---: | :---: | :---: | :--- |
+| **Inicio**| - | - | 0 | - |
+| **1** | 1 | `1 % 2 == 0` (Falso) | 0 | - |
+| **2** | 2 | `2 % 2 == 0` (Verdadero)| 2 | "Número par acumulado: 2" |
+| **3** | 3 | `3 % 2 == 0` (Falso) | 2 | - |
+| **Fin** | 11 | Bucle finalizado | 2 | "La suma total es: 2" |</li>
       <li><b>Evidencia:</b> [Enlace o texto]</li>
     </ul>
   </blockquote>
