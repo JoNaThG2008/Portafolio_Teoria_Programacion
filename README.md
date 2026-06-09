@@ -40,8 +40,10 @@ Los lenguajes de programación son formas de comunicarnos con la computadora par
 
 La programación por bloques es una forma sencilla de programar en la que se usan bloques visuales en lugar de escribir código. Estos bloques representan instrucciones y se encajan como piezas de un rompecabezas para decirle a la computadora qué hacer. Es más fácil de aprender porque evita errores de escritura y ayuda a entender la lógica de la programación. Se usa mucho en programas educativos y para principiantes.
 
+---
+
 🛠️ 2. Estructura Secuencial
-#### Planteamiento del problema
+📝 Planteamiento del Problema
 
 Un alumno necesita calcular el promedio final de sus tres notas.  
 Cada nota tiene una ponderación diferente:  
@@ -53,7 +55,7 @@ Se desea obtener el promedio final ponderado.
 
 ---
 
-#### Análisis del problema
+ 🔍 Análisis del Problema
 
 - **Entrada:** nota1, nota2, nota3  
 - **Proceso:**  
@@ -62,9 +64,9 @@ Se desea obtener el promedio final ponderado.
 
 ---
 
-#### Diseño del algoritmo
+📐 Diseño del Algoritmo
 
-**Diagrama de Flujo:**
+Diagrama de Flujo:
 
 
 🧠 3. Reflexión Crítica
