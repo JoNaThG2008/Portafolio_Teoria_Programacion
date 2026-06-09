@@ -10,7 +10,7 @@
 **Docente:** Lissette Geoconda López Faicán
 
 <details>
-  <summary>📂 <b>Unidad 1: [Nombre de la Unidad 1]</b> (Haz clic para desplegar)</summary>
+  <summary>📂 <b>Unidad 1: [Nombre de la Unidad 1]</b></summary>
   <br>
   <blockquote>
     <h3>📖 Contenido de la Unidad 1</h3>
@@ -25,6 +25,6 @@
 <br>
 
 <details open>
-  <summary>📂 <b>Unidad 2: Estructuras Condicionales y Repetitivas</b> (Haz clic para desplegar)</summary>
+  <summary>📂 <b>Unidad 2: Estructuras Condicionales y Repetitivas</b></summary>
   <br>
   <blockquote>
