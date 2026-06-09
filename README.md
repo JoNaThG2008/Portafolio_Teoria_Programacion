@@ -14,7 +14,7 @@
   <br>
   <blockquote>
   
-📖 1. Contenidos
+## 1. Contenidos 📖
 
 🔹 Algoritmo
 
@@ -42,9 +42,9 @@ La programación por bloques es una forma sencilla de programar en la que se usa
 
 ---
 
-🛠️ 2. Estructura Secuencial
+## 2. Estructura Secuencial 🛠️ 
 ---
-📝 Planteamiento del Problema
+### Planteamiento del Problema 📝
 
 Un alumno necesita calcular el promedio final de sus tres notas.  
 Cada nota tiene una ponderación diferente:  
@@ -56,7 +56,7 @@ Se desea obtener el promedio final ponderado.
 
 ---
 
- 🔍 Análisis del Problema
+ ### Análisis del Problema 🔍
 
 - **Entrada:** nota1, nota2, nota3  
 - **Proceso:**  
@@ -65,11 +65,11 @@ Se desea obtener el promedio final ponderado.
 
 ---
 
-📐 Diseño del Algoritmo
+### Diseño del Algoritmo 📐
 
-Diagrama de Flujo:
+### Diagrama de Flujo:
 
-Validación (Prueba de escritorio):
+### Validación (Prueba de escritorio):
 
 | Nota 1 | Nota 2 | Nota 3 |                       Cálculo                        | Promedio |
 | ------ | ------ | ------ | ---------------------------------------------------- | -------- |
@@ -77,7 +77,8 @@ Validación (Prueba de escritorio):
 | 7      | 8      | 9      | (7×0.30=2.1) + (8×0.30=2.4) + (9×0.40=3.6) = 8.1     | 8.1      |
 | 10     | 10     | 10     | (10×0.30=3.0) + (10×0.30=3.0) + (10×0.40=4.0) = 10.0 | 10       |
 
-### Principales dificultades y reflexión crítica en la aplicación de los contenidos
+
+## 3.  Principales dificultades y reflexión crítica en la aplicación de los contenidos 🧠
 
 Durante el desarrollo de la unidad se presentaron diversas dificultades, como la comprensión inicial de algunos de los conceptos básicos, ademas de que en un inicio, resultó complicado diferenciar entre la forma teórica (pseudocódigo) y la forma práctica (código en lenguaje C).
 Otra dificultad fue la correcta interpretación de los problemas, ya que no siempre era sencillo identificar las entradas, procesos y salidas. Esto ocasionaba errores al momento de diseñar el algoritmo o realizar la prueba de escritorio.
@@ -87,19 +88,7 @@ Como reflexión, estos contenidos son importantes porque son la base de la progr
 
 
 
-🧠 3. Reflexión Crítica
-
-Principales dificultades y reflexión crítica en la aplicación de los contenidos:
-Durante el desarrollo de la unidad se presentaron diversas dificultades, como la comprensión inicial de algunos de los conceptos básicos, además de que en un inicio, resultó complicado diferenciar entre la forma teórica (pseudocódigo) y la forma práctica (código en lenguaje C).
-
-Otra dificultad fue la correcta interpretación de los problemas, ya que no siempre era sencillo identificar las entradas, procesos y salidas. Esto ocasionaba errores al momento de diseñar el algoritmo o realizar la prueba de escritorio.
-
-Sin embargo, a medida que se avanzó con la práctica, se logró mejorar la capacidad de análisis y la organización lógica de las soluciones. El uso de ejercicios secuenciales permitió comprender mejor la estructura básica de un programa y la importancia de seguir un orden adecuado en las instrucciones.
-
-Importancia formativa:
-Como reflexión, estos contenidos son importantes porque son la base de la programación. Aprender a organizar un algoritmo antes de programar ayuda a hacer programas más claros y ordenados. Además, el uso de herramientas digitales y la inteligencia artificial ayudó a entender mejor los temas y resolver dudas.
-
-🤖 4. Declaración de Uso de IA Generativa
+## 4. Declaración de Uso de IA Generativa 🤖
 
 De conformidad con los lineamientos éticos de la Carrera de Computación de la Universidad Nacional de Loja, se declara formalmente:
 
@@ -118,6 +107,7 @@ De conformidad con los lineamientos éticos de la Carrera de Computación de la 
 [5] Universidad Internacional de La Rioja (UNIR México), "¿Qué es un diagrama de flujo y para qué sirve?". [En línea]. Disponible en: https://mexico.unir.net/noticias/ingenieria/diagrama-flujo/
 
 [6] Scribd, "¿Qué es la prueba de escritorio en seudocódigo?". [En línea]. Disponible en: https://es.scribd.com/document/463660396/Que-Es-La-Prueba-de-Escritorio-en-Seudocodigo
+</details>
 
 <details>
   <summary>📂 <b>Unidad 2: Estructuras Condicionales y Repetitivas</b></summary>
