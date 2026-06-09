@@ -43,6 +43,7 @@ La programación por bloques es una forma sencilla de programar en la que se usa
 ---
 
 🛠️ 2. Estructura Secuencial
+---
 📝 Planteamiento del Problema
 
 Un alumno necesita calcular el promedio final de sus tres notas.  
