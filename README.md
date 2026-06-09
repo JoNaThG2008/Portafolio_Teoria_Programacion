@@ -110,17 +110,15 @@ A continuación, se detallan los tipos de estructuras condicionales vistos en cl
 ---
 #### 1. Condicionales Simples (Si / if)
 
-Evalúan una condición lógica o booleana. Si el resultado de la evaluación es Verdadero, se ejecuta un bloque específico de instrucciones. Si es Falso, el programa ignora dicho bloque y continúa con la siguiente línea secuencial de código.
+Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero, se ejecuta un bloque específico de instrucciones. Si es Falso, el programa ignora dicho bloque y continúa con la siguiente línea secuencial de código.
 
 
 #### Estructura en Pseudocódigo:
 
 if (condicion_logica) {
-
     // Esto se ejecutará si la condición es verdadera
     printf("La condición es verdadera.\n");
 }
-
 
 #### Diagrama de Flujo:
 (Espacio reservado para tu imagen)
@@ -128,17 +126,14 @@ if (condicion_logica) {
 ---
 ### 2. Condicionales Compuestas (Si-Sino / if-else)
 
-Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la condición evaluada resulta Verdadero, se ejecuta el primer bloque de instrucciones; si resulta Falso, se ejecuta obligatoriamente el bloque de instrucciones alternativo definido bajo la sección Sino.
+Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la condición evaluada resulta Verdadero, se ejecuta el primer bloque de instrucciones; si resulta Falso, se ejecuta obligatoriamente el otro bloque de instrucciones.
 
 #### Estructura en Pseudocódigo:
 
 if (condicion_logica) {
-
     // "Bloque A": Se ejecuta si la condición es verdadera
     printf("Se cumple la condición (Caso A).\n");
-    
 } else {
-
     // "Bloque B": Se ejecuta si la condición es falsa
     printf("No se cumple la condición (Caso B).\n");
 }
@@ -146,3 +141,49 @@ if (condicion_logica) {
 
 #### Diagrama de Flujo:
 (Espacio reservado para tu imagen)
+
+### 3. Condicionales Anidadas y Múltiples (if - else if)
+
+Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se ejecutan secuencialmente de arriba hacia abajo; tan pronto como una de las condiciones resulta verdadera, se procesa su bloque correspondiente y se omite el resto de la estructura.
+
+#### Estructura en Pseudocódigo:
+
+if (condicion_1) {
+    // Se ejecutará si se cumple la primera condición
+    printf("Se cumple la primera condición.\n");
+} else if (condicion_2) {
+    // Se ejecutará si no se cumple la primera, pero sí la segunda
+    printf("No se cumple la primera, pero se cumple la segunda.\n");
+} else if (condicion_3) {
+    // Se ejecutará si no se cumplen las anteriores, pero sí la tercera
+    printf("No se cumple ni la primera ni la segunda, pero se cumple la tercera.\n");
+} else {
+    // Se ejecutará si no se cumple ninguna de las condiciones anteriores
+    printf("No se cumple ninguna de las condiciones.\n");
+}
+
+
+#### Diagrama de Flujo:
+flowchart TD
+    A([Inicio]) --> B{¿Condición 1?}
+    B -- Sí --> C[Ejecutar Bloque 1]
+    B -- No --> D{¿Condición 2?}
+    D -- Sí --> E[Ejecutar Bloque 2]
+    D -- No --> F{¿Condición 3?}
+    F -- Sí --> G[Ejecutar Bloque 3]
+    F -- No --> H[Ejecutar Bloque Alternativo <br> (else)]
+    
+    C --> I([Continuar / Fin])
+    E --> I
+    G --> I
+    H --> I
+
+    style A fill:#4CAF50,stroke:#388E3C,stroke-width:2px,color:#fff
+    style B fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    style D fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    style F fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
+    style C fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
+    style E fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
+    style G fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
+    style H fill:#9C27B0,stroke:#7B1FA2,stroke-width:2px,color:#fff
+    style I fill:#F44336,stroke:#D32F2F,stroke-width:2px,color:#fff
