@@ -24,7 +24,7 @@
 
 <br>
 
-<details open>
+<details>
   <summary>📂 <b>Unidad 2: Estructuras Condicionales y Repetitivas</b></summary>
   <br>
   <blockquote>
