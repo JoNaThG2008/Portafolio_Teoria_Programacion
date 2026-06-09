@@ -10,7 +10,7 @@
 **Docente:** Lissette Geoconda López Faicán
 
 <details>
-  <summary>📂 <b>Unidad 1: [Nombre de la Unidad 1]</b></summary>
+  <summary>📂 <b>Unidad 1: Algoritmo, pseudocódigo, diagrama de flujo, prueba de escritorio y lenguajes de programación.</b></summary>
   <br>
   <blockquote>
     <h3>📖 Contenido de la Unidad 1</h3>
