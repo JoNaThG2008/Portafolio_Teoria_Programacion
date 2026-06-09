@@ -13,10 +13,7 @@
   <summary>📂 <b>Unidad 1: Algoritmo, pseudocódigo, diagrama de flujo, prueba de escritorio y lenguajes de programación.</b></summary>
   <br>
   <blockquote>
-    <h3>📖 Contenido de la Unidad 1</h3>
-    Unidad 1: Introducción a la Lógica y Estructuras Secuenciales
-
-⬅️ Volver a la Portada Principal
+  
 
 📖 1. Desarrollo del Contenido Temático
 
