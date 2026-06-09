@@ -112,15 +112,16 @@ A continuación, se detallan los tipos de estructuras condicionales vistos en cl
 
 Evalúan una condición lógica o booleana. Si el resultado de la evaluación es Verdadero, se ejecuta un bloque específico de instrucciones. Si es Falso, el programa ignora dicho bloque y continúa con la siguiente línea secuencial de código.
 
---- 
+
 #### Estructura en Pseudocódigo:
 
 if (condicion_logica) {
+
     // Esto se ejecutará si la condición es verdadera
     printf("La condición es verdadera.\n");
 }
 
---- 
+
 #### Diagrama de Flujo:
 (Espacio reservado para tu imagen)
 
@@ -128,17 +129,20 @@ if (condicion_logica) {
 ### 2. Condicionales Compuestas (Si-Sino / if-else)
 
 Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la condición evaluada resulta Verdadero, se ejecuta el primer bloque de instrucciones; si resulta Falso, se ejecuta obligatoriamente el bloque de instrucciones alternativo definido bajo la sección Sino.
----
+
 #### Estructura en Pseudocódigo:
 
 if (condicion_logica) {
+
     // "Bloque A": Se ejecuta si la condición es verdadera
     printf("Se cumple la condición (Caso A).\n");
+    
 } else {
+
     // "Bloque B": Se ejecuta si la condición es falsa
     printf("No se cumple la condición (Caso B).\n");
 }
 
---- 
+
 #### Diagrama de Flujo:
 (Espacio reservado para tu imagen)
