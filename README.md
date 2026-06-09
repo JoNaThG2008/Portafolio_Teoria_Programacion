@@ -32,7 +32,7 @@
 <h4>🔹 Programación por Bloques</h4>
 <p>La programación por bloques es una forma sencilla de programar en la que se usan bloques visuales en lugar de escribir código. Estos bloques representan instrucciones y se encajan como piezas de un rompecabezas para decirle a la computadora qué hacer. Es más fácil de aprender porque evita errores de escritura y ayuda a entender la lógica de la programación. Se usa mucho en programas educativos y para principiantes.</p> 2.</p>
     <ul>
-      <li><b>Actividad 1.1:</b> <h3>🛠️ Evidencia Práctica o Aplicación (Caso Práctico)</h3>
+      <li><b></b> <h3>Ejercicio Secuencial (Caso Práctico)</h3>
 
 <h4>1. Planteamiento del Problema</h4>
 <p><i>[Por favor, escribe aquí el enunciado del problema matemático o lógico de la Unidad 2 proporcionado por tu profesor en clase]</i></p>
