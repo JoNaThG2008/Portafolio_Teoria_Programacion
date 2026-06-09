@@ -14,10 +14,7 @@
   <br>
   <blockquote>
   
-
-📖 1. Desarrollo del Contenido Temático
-
-Haz clic en las secciones a continuación para desplegar la base teórica desarrollada durante esta unidad:
+📖 1. Contenidos
 
 🔹 Algoritmo
 
@@ -43,159 +40,32 @@ Los lenguajes de programación son formas de comunicarnos con la computadora par
 
 La programación por bloques es una forma sencilla de programar en la que se usan bloques visuales en lugar de escribir código. Estos bloques representan instrucciones y se encajan como piezas de un rompecabezas para decirle a la computadora qué hacer. Es más fácil de aprender porque evita errores de escritura y ayuda a entender la lógica de la programación. Se usa mucho en programas educativos y para principiantes.
 
-🛠️ 2. Evidencia Práctica o Aplicación (Estructura Secuencial)
+🛠️ 2. Estructura Secuencial
+#### Planteamiento del problema
 
-En esta sección se documenta el diseño y codificación de un algoritmo estructurado de naturaleza secuencial, donde cada instrucción se ejecuta de manera ordenada una tras otra.
+Un alumno necesita calcular el promedio final de sus tres notas.  
+Cada nota tiene una ponderación diferente:  
+- Primera nota: 30%  
+- Segunda nota: 30%  
+- Tercera nota: 40%  
 
-📝 Planteamiento del Problema
+Se desea obtener el promedio final ponderado.
 
-Enunciado: Un alumno necesita calcular el promedio final de sus tres notas. Cada nota tiene una ponderación diferente:
+---
 
-Primera nota: 30% ($0.30$)
+#### Análisis del problema
 
-Segunda nota: 30% ($0.30$)
+- **Entrada:** nota1, nota2, nota3  
+- **Proceso:**  
+  promedio = (nota1 * 0.30) + (nota2 * 0.30) + (nota3 * 0.40)  
+- **Salida:** Promedio Final
 
-Tercera nota: 40% ($0.40$)
+---
 
-Se desea obtener el promedio final ponderado del estudiante.
+#### Diseño del algoritmo
 
-🔍 Análisis del Problema
+**Diagrama de Flujo:**
 
-Entradas (Datos requeridos): * nota1 (Número real: primera calificación).
-
-nota2 (Número real: segunda calificación).
-
-nota3 (Número real: tercera calificación).
-
-Proceso (Fórmulas de cálculo):
-
-
-$$\text{promedio} = (\text{nota1} \times 0.30) + (\text{nota2} \times 0.30) + (\text{nota3} \times 0.40)$$
-
-Salida (Resultado esperado): * promedio (Número real: promedio final ponderado).
-
-📐 Diseño del Algoritmo
-
-Representación en Pseudocódigo:
-
-Algoritmo CalcularPromedioPonderado
-    Definir nota1, nota2, nota3, promedio Como Real
-    
-    Escribir "Ingrese la calificación de la Nota 1 (30%):"
-    Leer nota1
-    Escribir "Ingrese la calificación de la Nota 2 (30%):"
-    Leer nota2
-    Escribir "Ingrese la calificación de la Nota 3 (40%):"
-    Leer nota3
-    
-    promedio <- (nota1 * 0.30) + (nota2 * 0.30) + (nota3 * 0.40)
-    
-    Escribir "El promedio final ponderado es: ", promedio
-FinAlgoritmo
-
-
-Representación en Diagrama de Flujo (Mermaid):
-
-Este diagrama se genera y renderiza dinámicamente en GitHub:
-
-graph TD
-    A([Inicio]) --> B[/Leer nota1, nota2, nota3/]
-    B --> C[promedio = nota1 * 0.30 + nota2 * 0.30 + nota3 * 0.40]
-    C --> D[/Mostrar promedio/]
-    D --> E([Fin])
-    
-    style A fill:#4CAF50,stroke:#388E3C,stroke-width:2px,color:#fff
-    style B fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
-    style C fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
-    style D fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
-    style E fill:#F44336,stroke:#D32F2F,stroke-width:2px,color:#fff
-
-
-💻 Codificación (Código Fuente en Lenguaje C)
-
-A continuación, se detalla la traducción formal de la lógica del algoritmo secuencial al Lenguaje C:
-
-#include <stdio.h>
-
-int main() {
-    // Declaración de variables para almacenar notas y el promedio final
-    float nota1, nota2, nota3, promedio;
-
-    printf("===========================================\n");
-    printf("     SISTEMA DE CALCULO DE PROMEDIOS UNL    \n");
-    printf("===========================================\n\n");
-
-    // Entrada de datos del estudiante
-    printf("Ingrese la Nota 1 (Ponderacion 30%%): ");
-    scanf("%f", &nota1);
-
-    printf("Ingrese la Nota 2 (Ponderacion 30%%): ");
-    scanf("%f", &nota2);
-
-    printf("Ingrese la Nota 3 (Ponderacion 40%%): ");
-    scanf("%f", &nota3);
-
-    // Proceso secuencial: Cálculo del promedio ponderado
-    promedio = (nota1 * 0.30) + (nota2 * 0.30) + (nota3 * 0.40);
-
-    // Salida de resultados
-    printf("\n-------------------------------------------\n");
-    printf("El promedio final ponderado es: %.2f\n", promedio);
-    printf("===========================================\n");
-
-    return 0;
-}
-
-
-📊 Validación (Prueba de Escritorio)
-
-Iteración / Caso
-
-Nota 1
-
-Nota 2
-
-Nota 3
-
-Cálculo Realizado
-
-Promedio Final
-
-Caso 1
-
-8.0
-
-9.0
-
-10.0
-
-$(8 \times 0.30) + (9 \times 0.30) + (10 \times 0.40) = 2.4 + 2.7 + 4.0$
-
-9.1
-
-Caso 2
-
-7.0
-
-8.0
-
-9.0
-
-$(7 \times 0.30) + (8 \times 0.30) + (9 \times 0.40) = 2.1 + 2.4 + 3.6$
-
-8.1
-
-Caso 3
-
-10.0
-
-10.0
-
-10.0
-
-$(10 \times 0.30) + (10 \times 0.30) + (10 \times 0.40) = 3.0 + 3.0 + 4.0$
-
-10.0
 
 🧠 3. Reflexión Crítica
 
