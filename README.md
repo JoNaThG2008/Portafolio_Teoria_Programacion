@@ -293,6 +293,7 @@ Número Fibonacci correspondiente a la posición ingresada.
 
 #### 💻 Representación en Diagrama de Flujo:
 
+<img width="702" height="701" alt="dfor" src="https://github.com/user-attachments/assets/6e855ed2-7683-4130-862d-214c0261c93a" />
 
 
 #### 📊 Prueba de Escritorio
