@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="450" height="300" alt="Sello_UNL" src="https://github.com/user-attachments/assets/8973b783-8d3a-4989-a1a4-9cedc028a40e" />
+<img width="526" height="371" alt="logoUNL" src="https://github.com/user-attachments/assets/f8f85569-fa74-40de-8e39-c6fc60887d0a" />
 
 
 <br><br>
