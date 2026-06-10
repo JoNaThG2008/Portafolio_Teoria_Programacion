@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="logo-unl.png" width="180">
+<img width="450" height="300" alt="Sello_UNL" src="https://github.com/user-attachments/assets/8973b783-8d3a-4989-a1a4-9cedc028a40e" />
+
 
 <br><br>
 
