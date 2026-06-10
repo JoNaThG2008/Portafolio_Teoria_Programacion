@@ -288,8 +288,7 @@ Número Fibonacci correspondiente a la posición ingresada.
 
 #### 📐 Diseño del Algoritmo
 
-
-
+<img width="761" height="627" alt="efibo" src="https://github.com/user-attachments/assets/69fda244-c2f4-4c5d-88be-7b200ad184ff" />
 
 
 #### 💻 Representación en Diagrama de Flujo:
@@ -298,6 +297,38 @@ Número Fibonacci correspondiente a la posición ingresada.
 
 #### 📊 Prueba de Escritorio
 
+Sí. Para que se vea correctamente en un **README de GitHub**, puedes usar esta tabla en formato Markdown:
+
+### Prueba de escritorio
+
+**Dato de entrada:** `n = 6`
+
+| Paso           | cont | ant1 | ant2 | suma |
+| -------------- | ---- | ---- | ---- | ---- |
+| Inicialización | -    | 0    | 1    | -    |
+| Iteración 1    | 2    | 1    | 1    | 1    |
+| Iteración 2    | 3    | 1    | 2    | 2    |
+| Iteración 3    | 4    | 2    | 3    | 3    |
+| Iteración 4    | 5    | 3    | 5    | 5    |
+| Iteración 5    | 6    | 5    | 8    | 8    |
+
+**Salida:** `8`
+
+### Verificación
+
+Sucesión de Fibonacci:
+
+| Posición (n) | Valor |
+| ------------ | ----- |
+| 0            | 0     |
+| 1            | 1     |
+| 2            | 1     |
+| 3            | 2     |
+| 4            | 3     |
+| 5            | 5     |
+| 6            | 8     |
+
+Por lo tanto, para **n = 6**, el programa muestra **8**, que es el resultado correcto.
 
 
 
@@ -310,5 +341,33 @@ Este trabajo permitió reconocer la importancia de analizar previamente un probl
 ### 4. 🧠 Declaración de Uso de Inteligencia Artificial (IA) Generativa
 
 💡 En este portafolio se utilizaron herramientas de Inteligencia Artificial como Gemini y ChatGPT para servir de apoyo como un tutor de acompañamiento. Se emplearon principalmente para comprender de mejor manera los temas de clase cuando se presentaron dudas, revisar que la lógica de los códigos en C y las pruebas de escritorio estén bien planteadas, y también para aprender a estructurar de forma clara y ordenada todos los documentos usando Markdown en el repositorio.
+
+</details>
+
+### Bibliografía
+
+[1] Material de clase de la asignatura Teoría de la Programación, proporcionado por la docente, Universidad Técnica Particular de Loja, Loja, Ecuador, 2026.
+
+[2] Apuntes personales del estudiante, elaborados durante el desarrollo de la asignatura Teoría de la Programación, Universidad Técnica Particular de Loja, Loja, Ecuador, 2026.
+
+[3] OpenAI, “ChatGPT,” 2026. [En línea]. Disponible en: https://chat.openai.com/. [Accedido: 10-jun-2026].
+
+[4] Universidad Internacional de La Rioja, “¿Qué es un algoritmo?,” Revista de Ingeniería y Tecnología. [En línea]. Disponible en: https://unirfp.unir.net/revista/ingenieria-y-tecnologia/que-es-algoritmo/. [Accedido: 10-jun-2026].
+
+[5] Ciberaula, “Pseudocódigo: qué es y cómo escribirlo con ejemplos claros.” [En línea]. Disponible en: https://www.ciberaula.com/cursos/java/pseudolenguaje_1.php. [Accedido: 10-jun-2026].
+
+[6] Universidad Internacional de La Rioja (UNIR México), “¿Qué es un diagrama de flujo y para qué sirve?.” [En línea]. Disponible en: https://mexico.unir.net/noticias/ingenieria/diagrama-flujo/. [Accedido: 10-jun-2026].
+
+[7] Scribd, “¿Qué es la prueba de escritorio en seudocódigo?.” [En línea]. Disponible en: https://es.scribd.com/document/463660396/Que-Es-La-Prueba-de-Escritorio-en-Seudocodigo. [Accedido: 10-jun-2026].
+
+[8] Universidad de Valladolid, “Bucle for,” Fundamentos de Programación en C++. [En línea]. Disponible en: https://www2.eii.uva.es/fund_inf/cpp/temas/6_control_flujo_iterativo/for.html. [Accedido: 10-jun-2026]. :contentReference[oaicite:0]{index=0}
+
+[9] J. Álvarez Liébana, “Estructuras de control: bucles y estructuras condicionales.” [En línea]. Disponible en: https://javieralvarezliebana.quarto.pub/control-bucles-if-else/. [Accedido: 10-jun-2026]. :contentReference[oaicite:1]{index=1}
+
+[10] “Estructura repetitiva FOR en C/C++,” YouTube. [Video]. Disponible en: https://www.youtube.com/watch?v=UtZ2YMhcJLU. [Accedido: 10-jun-2026].
+
+[11] “Estructuras repetitivas FOR, WHILE y DO WHILE,” YouTube. [Video]. Disponible en: https://www.youtube.com/watch?v=60Dk0FvBaqc. [Accedido: 10-jun-2026].
+
+[12] Apuntes personales del estudiante sobre estructuras de control repetitivas y condicionales, elaborados durante el desarrollo de la asignatura Teoría de la Programación, Universidad Técnica Particular de Loja, Loja, Ecuador, 2026.
 
 
