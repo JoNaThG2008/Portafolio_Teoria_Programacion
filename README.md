@@ -119,7 +119,9 @@ Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero,
 
 
 #### Diagrama de Flujo:
-(Espacio reservado para tu imagen)
+
+<img width="668" height="457" alt="dIf" src="https://github.com/user-attachments/assets/743c9e31-f768-4a2d-bb97-e13fdd6efe66" />
+
 
 ---
 
@@ -133,7 +135,9 @@ Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la c
 
 
 #### Diagrama de Flujo:
-(Espacio reservado para tu imagen)
+
+<img width="662" height="460" alt="dIe" src="https://github.com/user-attachments/assets/942fae9a-a9c0-45e7-b97d-780cd62cb3b7" />
+
 
 --- 
 
@@ -147,7 +151,11 @@ Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se e
 
 
 #### Diagrama de Flujo:
-(cdg)
+
+<img width="665" height="452" alt="dIeI" src="https://github.com/user-attachments/assets/e5dd64fa-66a4-406a-be7f-02412710fcdc" />
+
+
+
 --- 
 
 🔸 Estructuras Repetitivas (Bucles o Ciclos)
