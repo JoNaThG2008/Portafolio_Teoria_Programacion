@@ -266,105 +266,39 @@ El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del
 ### 2. Ejercicio con estructura condicional y repetitiva
 
 #### 📝 Planteamiento del Problema
-##### Enunciado: 
-Un docente de la Universidad Nacional de Loja requiere un programa para calcular el promedio de la nota final ponderada de múltiples estudiantes (el programa debe preguntar la cantidad de alumnos a procesar).
 
-Para cada estudiante se ingresarán las notas de 4 componentes de evaluación académica: ACD (Aprendizaje en Contacto con el Docente), AA (Aprendizaje Autónomo), APE (Aprendizaje Práctico Experimental), y Examen (Examen de Fin de Unidad/Ciclo).
-
-##### El programa debe cumplir obligatoriamente con los siguientes requisitos lógicos:
-
-- Solicitar el número de estudiantes a los cuales se les calculará la nota final.
-
-- Utilizar bucles de post-condición (do-while) para validar individualmente que cada una de las calificaciones ingresadas se encuentre estrictamente dentro del rango de 0 a 10 puntos (si se introduce una nota fuera del rango, se muestra un mensaje de advertencia y se repite el ingreso).
-
-- Calcular la Nota Final (nF) mediante las ponderaciones oficiales del ciclo académico actual:
-
-   -Ponderación ACD: 20% (0.20)
-
-   -Ponderación AA: 20% (0.20)
-
-   -Ponderación APE: 25% (0.25)
-
-   -Ponderación Examen: 35% (0.35)
-
-##### Evaluar cualitativamente la calificación de la unidad para cada estudiante con la estructura condicional anidada correspondiente:
-
-- EXCELENTE: [9.0, 10.0]
-
-- BUENA: [7.0, 9.0)
-
-- REGULAR: [5.0, 7.0)
-
-- DEFICIENTE: [0.0, 5.0)
-
+Desarrollar un programa que permita al usuario ingresar la posición de un número en la sucesión de Fibonacci y muestre el valor correspondiente. El programa debe validar que la posición ingresada sea un número entero no negativo.
 
 #### 🔍 Análisis del Problema
 
-##### Entradas (Datos requeridos):
+##### Datos de entrada
+Posición del número Fibonacci (n).
 
-nEs (Entero: cantidad total de estudiantes a procesar).
+##### Proceso
+Solicitar al usuario la posición del número Fibonacci.
+Validar que el valor ingresado sea mayor o igual a cero.
+Si n = 0, mostrar 0.
+Si n = 1, mostrar 1.
+Si n > 1, calcular el término utilizando una estructura repetitiva for.
+Mostrar el resultado obtenido.
 
-Para cada estudiante ingresado en la iteración: notaACD, notaAA, notaAPE, notaES (Números reales).
-
-##### Procesos (Operaciones):
-
-Un ciclo de control for que itera la variable rep desde 1 hasta el total nEs ingresado.
-
-Bucles do-while internos de validación con expresión condicional de rango: (nota < 0 || nota > 10).
-
-##### Cálculos matemáticos de ponderación individual:
-
-
-pACD = notaACD \times 0.20
-
-pAA = notaAA \times 0.20
-
-pAPE = notaAPE \times 0.25
-
-pEs = notaES \times 0.35
-
-
-##### Cálculo de la Nota Final acumulada:
-
-
-nF = pACD + pAA + pAPE + pEs
-
-Clasificación lógica anidada (if-else if-else) según las escalas de evaluación cualitativas indicadas en el problema.
-
-##### Salidas:
-
-Desglose detallado de los promedios ponderados obtenidos.
-
-Nota final resultante.
-
-Valoración de la nota de unidad de los  estudianteas ingresadas.
+##### Datos de salida
+Número Fibonacci correspondiente a la posición ingresada.
 
 
 #### 📐 Diseño del Algoritmo
 
-<img width="635" height="428" alt="Codigo1" src="https://github.com/user-attachments/assets/573760d4-a6c0-467f-9945-4b282a2dde31" />
-<img width="635" height="409" alt="Codigo2" src="https://github.com/user-attachments/assets/546faf74-5ae9-47b7-902a-60f5e3166f50" />
-<img width="573" height="361" alt="Codigo 3" src="https://github.com/user-attachments/assets/ccff304b-ef26-45bb-bfda-68ec07b66b81" />
+
 
 
 
 #### 💻 Representación en Diagrama de Flujo:
 
-<img width="1167" height="899" alt="dF1" src="https://github.com/user-attachments/assets/b71c716e-0e84-4d9f-8214-83cc8c956b55" />
-<img width="1171" height="870" alt="dF2" src="https://github.com/user-attachments/assets/1e83d8a2-862a-442e-bb06-b54254b93bf1" />
-<img width="1174" height="458" alt="dF3" src="https://github.com/user-attachments/assets/587f9bd9-2e4b-4cba-89c1-05962d218f5c" />
 
 
 #### 📊 Prueba de Escritorio
 
-<img width="1162" height="550" alt="pE" src="https://github.com/user-attachments/assets/b6e9e6fb-b8bc-4f24-b61c-c0ec0c4684d4" />
 
-
-#### 📝 Salida en el Programa
-<img width="709" height="214" alt="s1" src="https://github.com/user-attachments/assets/c8769a1c-702b-41d4-ad27-1086ff881fb2" />
-<img width="608" height="202" alt="s2" src="https://github.com/user-attachments/assets/393b7e0c-f2bf-4862-b506-e532c6ab8c4a" />
-<img width="609" height="238" alt="s3" src="https://github.com/user-attachments/assets/f88aeaa9-71d3-4360-9ccf-4d0cda71aaaa" />
-<img width="625" height="107" alt="s4" src="https://github.com/user-attachments/assets/a81790f0-0b0e-4562-8430-d9ec459689f8" />
 
 
 ### 3. 🧠 Reflexión Crítica y Dificultades Generales
