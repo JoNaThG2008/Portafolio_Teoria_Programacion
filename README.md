@@ -1,32 +1,3 @@
-🗂️ Índice de Contenidos del Portafolio
-
-Para facilitar la navegación y cumplir de forma organizada con la rúbrica de evaluación de cada unidad, el portafolio se ha estructurado en módulos independientes. Haz clic en cualquiera de las siguientes secciones para acceder a su respectivo contenido:
-
-📂 Unidad 1: Introducción a la Lógica y Estructuras Secuenciales
-
-Conceptos fundamentales: Algoritmos, pseudocódigo, diagramas de flujo, pruebas de escritorio, lenguajes de programación, programación por bloques y resolución de un problema práctico con estructuras secuenciales.
-
-📂 Unidad 2: Estructuras Condicionales y Repetitivas
-
-Estructuras de control de flujo: Estructuras condicionales (simples, compuestas, anidadas) y repetitivas (mientras, repetir, para, bucles anidados). Incluye el caso de estudio práctico con validación de rango de notas.
-
-📂 Unidad 3: Temas Avanzados (No Aplica)
-
-Sección reservada para contenidos futuros conforme al avance del período académico.
-
-🧠 Declaración de Uso de Inteligencia Artificial (IA) Generativa
-
-De acuerdo con los lineamientos establecidos por la Carrera de Computación de la UNL:
-
-💡 Se declara el uso de herramientas de Inteligencia Artificial Generativa (como Gemini/ChatGPT) actuando única y estrictamente bajo el rol de tutor de acompañamiento académico. Se utilizó esta tecnología como recurso de refuerzo para consolidar los conceptos lógicos explicados en clase, optimizar el diseño visual/estructural del portafolio digital utilizando HTML/Markdown y verificar la consistencia de las pruebas de escritorio de los algoritmos diseñados.
-
-📚 Bibliografía General (Norma IEEE)
-
-[1] G. J. Bronson, A First Book of C++: From Some to Advanced, 4a ed. Boston, MA, EE. UU.: Cengage Learning, 2020.
-
-[2] T. H. Cormen, C. E. Leiserson, R. L. Rivest y C. Stein, Introduction to Algorithms, 4a ed. Cambridge, MA, EE. UU.: MIT Press, 2022.
-
-[3] J. R. Hanly y E. B. Koffman, Problem Solving and Program Design in C, 8a ed. Boston, MA, EE. UU.: Pearson, 2021.
 
 
 <details>
