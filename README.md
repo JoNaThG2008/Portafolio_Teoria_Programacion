@@ -167,7 +167,8 @@ Es una estructura de control con pre-condición. Evalúa la condición al inicio
 
 #### Diagrama de Flujo:
 
-<img width="1200" height="1020" alt="1_bucle_mientras" src="https://github.com/user-attachments/assets/6ef8c676-8477-4311-9eba-6c633345f72d" />
+<img width="672" height="461" alt="dFw" src="https://github.com/user-attachments/assets/f14f665d-b96e-4a63-b06a-cb90e62dc6fd" />
+
 
 
 --- 
@@ -183,7 +184,8 @@ Es una estructura de control con post-condición. A diferencia del ciclo while, 
 
 #### Diagrama de Flujo:
 
-<img width="1200" height="1020" alt="2_bucle_dowhile" src="https://github.com/user-attachments/assets/63726d08-b169-4579-bb84-f8cf81bc0f8e" />
+<img width="672" height="466" alt="dFdW" src="https://github.com/user-attachments/assets/8b5cbe78-9a09-47bd-aa14-d05170ec8266" />
+
 
 
 --- 
@@ -199,7 +201,7 @@ Es una estructura de control compacta, diseñada específicamente para escenario
 
 #### Diagrama de Flujo:
 
-<img width="1200" height="1020" alt="3_bucle_para" src="https://github.com/user-attachments/assets/5f8ca580-2d6a-44ab-b67e-6d429efe860c" />
+<img width="681" height="462" alt="dFf" src="https://github.com/user-attachments/assets/23bb6da4-bc98-4508-8dbb-6f6381c5c8aa" />
 
 
 --- 
@@ -214,7 +216,7 @@ El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del
 
 #### Diagrama de Flujo:
 
-<img width="1200" height="1020" alt="4_bucles_anidados" src="https://github.com/user-attachments/assets/cd307bb2-8d3e-40ef-b2a4-76592cfb10a0" />
+<img width="676" height="457" alt="dFa" src="https://github.com/user-attachments/assets/cf3400f1-c6a6-4c7f-9c53-fc2c75f20ef4" />
 
 
 --- 
