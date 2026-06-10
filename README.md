@@ -105,9 +105,9 @@ De conformidad con los lineamientos éticos de la Carrera de Computación de la 
     
 Las estructuras condicionales son aquellas que nos permiten dividir el camino de ejecución de un programa dependiendo del valor de verdad de una condición lógica, permiten que el software tome decisiones basándose en los datos de entrada o cálculos anteriormente realizados.
 
-A continuación, se detallan los tipos de estructuras condicionales vistos en clases junto con su sintaxis en pseudocódigo y sus representaciones en diagrama de flujo:
 
 ---
+
 #### 1. Condicionales Simples (Si / if)
 
 Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero, se ejecuta un bloque específico de instrucciones. Si es Falso, el programa ignora dicho bloque y continúa con la siguiente línea secuencial de código.
@@ -122,6 +122,7 @@ Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero,
 (Espacio reservado para tu imagen)
 
 ---
+
 ### 2. Condicionales Compuestas (Si-Sino / if-else)
 
 Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la condición evaluada resulta Verdadero, se ejecuta el primer bloque de instrucciones; si resulta Falso, se ejecuta obligatoriamente el otro bloque de instrucciones.
@@ -135,6 +136,7 @@ Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la c
 (Espacio reservado para tu imagen)
 
 --- 
+
 ### 3. Condicionales Anidadas y Múltiples (if - else if)
 
 Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se ejecutan secuencialmente de arriba hacia abajo; tan pronto como una de las condiciones resulta verdadera, se procesa su bloque correspondiente y se omite el resto de la estructura.
@@ -146,15 +148,17 @@ Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se e
 
 #### Diagrama de Flujo:
 (cdg)
+--- 
 
 🔸 Estructuras Repetitivas (Bucles o Ciclos)
 
 Las estructuras repetitivas permiten ejecutar un bloque de instrucciones de manera recurrente mientras una condición lógica preestablecida se mantenga como verdadera. Son indispensables para simplificar la escritura de código iterativo y procesar grandes volúmenes de datos homogéneos.
 
 --- 
+
 ### 1. Bucle Mientras (while)
 
-Es una estructura de control con pre-condición. Evalúa la condición booleana al inicio, antes de entrar al bucle. Si la condición resulta verdadera, se ejecuta el bloque de código y vuelve a comprobarse; si la condición es inicialmente falsa, las instrucciones internas no se ejecutan ninguna vez.
+Es una estructura de control con pre-condición. Evalúa la condición al inicio, antes de entrar al bucle. Si la condición resulta verdadera, se ejecuta el bloque de código y vuelve a comprobarse; si la condición es falsa, las instrucciones internas no se ejecutan ninguna vez.
 
 #### Estructura en Lenguaje C:
 
@@ -163,11 +167,14 @@ Es una estructura de control con pre-condición. Evalúa la condición booleana 
 
 #### Diagrama de Flujo:
 
+<img width="1200" height="1020" alt="1_bucle_mientras" src="https://github.com/user-attachments/assets/6ef8c676-8477-4311-9eba-6c633345f72d" />
+
 
 --- 
+
 ### 2. Bucle Repetir-Mientras (do-while)
 
-Es una estructura de control con post-condición. A diferencia del ciclo while, este bloque de instrucciones se ejecuta de manera incondicional al menos una vez antes de evaluar la condición por primera vez. Si tras la ejecución de prueba la condición es verdadera, el ciclo se repite; de lo contrario, finaliza.
+Es una estructura de control con post-condición. A diferencia del ciclo while, este bloque de instrucciones se ejecuta de manera obligatoria al menos una vez antes de evaluar la condición por primera vez. Si tras la ejecución de prueba la condición es verdadera, el ciclo se repite; de lo contrario, finaliza.
 
 #### Estructura en Lenguaje C:
 
@@ -176,11 +183,14 @@ Es una estructura de control con post-condición. A diferencia del ciclo while, 
 
 #### Diagrama de Flujo:
 
+<img width="1200" height="1020" alt="2_bucle_dowhile" src="https://github.com/user-attachments/assets/63726d08-b169-4579-bb84-f8cf81bc0f8e" />
+
 
 --- 
+
 ### 3. Bucle Para (for)
 
-Es una estructura de control iterativa compacta, diseñada específicamente para escenarios donde se conoce con precisión el número de iteraciones de antemano. Agrupa de forma estructurada en su cabecera la inicialización de la variable contadora, la evaluación de continuidad y el incremento o decremento de dicha variable.
+Es una estructura de control compacta, diseñada específicamente para escenarios donde se conoce el número de iteraciones de antemano. Agrupa de forma estructurada en su cabecera la inicialización de la variable, la condición y el incremento o decremento de dicha variable.
 
 #### Estructura en Lenguaje C:
 
@@ -188,22 +198,27 @@ Es una estructura de control iterativa compacta, diseñada específicamente para
 
 
 #### Diagrama de Flujo:
-jgh
+
+<img width="1200" height="1020" alt="3_bucle_para" src="https://github.com/user-attachments/assets/5f8ca580-2d6a-44ab-b67e-6d429efe860c" />
+
 
 --- 
+
 ### 4. Bucles Anidados (Anidamiento de Bucles)
 
 El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del cuerpo de otro ciclo (bucle externo). Por cada única vuelta o iteración que realice el bucle externo, el bucle interno se activará y se ejecutará de forma completa (desde su inicio hasta que su condición deje de cumplirse).
-
-Esta combinación es sumamente útil para trabajar con estructuras bidimensionales (como filas y columnas en una matriz), recorrer bases de datos complejas o dibujar patrones en consola.
 
 #### Estructura en Lenguaje C (Ejemplo con dos bucles for):
 
 <img width="798" height="226" alt="for_for" src="https://github.com/user-attachments/assets/d800f695-ce69-4cc1-a42e-afd8f9776de2" />
 
 #### Diagrama de Flujo:
-jhf
+
+<img width="1200" height="1020" alt="4_bucles_anidados" src="https://github.com/user-attachments/assets/cd307bb2-8d3e-40ef-b2a4-76592cfb10a0" />
+
+
 --- 
+
 🔸 Ejercicio con estructura condicional y repetitiva
 
 #### 📝 Planteamiento del Problema
@@ -247,7 +262,7 @@ nEs (Entero: cantidad total de estudiantes a procesar).
 
 Para cada estudiante ingresado en la iteración: notaACD, notaAA, notaAPE, notaES (Números reales).
 
-Procesos (Operaciones):
+##### Procesos (Operaciones):
 
 Un ciclo de control for que itera la variable rep desde 1 hasta el total nEs ingresado.
 
@@ -264,6 +279,7 @@ $$pAPE = notaAPE \times 0.25$$
 
 $$pEs = notaES \times 0.35$$
 
+
 ##### Cálculo de la Nota Final acumulada:
 
 
@@ -271,13 +287,13 @@ $$nF = pACD + pAA + pAPE + pEs$$
 
 Clasificación lógica anidada (if-else if-else) según las escalas de evaluación cualitativas indicadas en el problema.
 
-Salidas (Resultados impresos en consola):
+##### Salidas:
 
-Desglose detallado de los promedios ponderados obtenidos por componente.
+Desglose detallado de los promedios ponderados obtenidos.
 
-Nota final resultante en escala decimal.
+Nota final resultante.
 
-Valoración cualitativa obtenida por el estudiante en la unidad.
+Valoración de la nota de unidad de los  estudianteas ingresadas.
 
 
 #### 📐 Diseño del Algoritmo
@@ -288,21 +304,19 @@ Valoración cualitativa obtenida por el estudiante en la unidad.
 
 
 
-#### Representación en Diagrama de Flujo:
+#### 💻 Representación en Diagrama de Flujo:
 
 <img width="1167" height="899" alt="dF1" src="https://github.com/user-attachments/assets/b71c716e-0e84-4d9f-8214-83cc8c956b55" />
 <img width="1171" height="870" alt="dF2" src="https://github.com/user-attachments/assets/1e83d8a2-862a-442e-bb06-b54254b93bf1" />
 <img width="1174" height="458" alt="dF3" src="https://github.com/user-attachments/assets/587f9bd9-2e4b-4cba-89c1-05962d218f5c" />
 
 
-#### Prueba de Escritorio
+#### 📊 Prueba de Escritorio
+
+<img width="1162" height="550" alt="pE" src="https://github.com/user-attachments/assets/b6e9e6fb-b8bc-4f24-b61c-c0ec0c4684d4" />
 
 
-
-
-
-
-#### Salida en el Programa
+#### 📝 Salida en el Programa
 <img width="709" height="214" alt="s1" src="https://github.com/user-attachments/assets/c8769a1c-702b-41d4-ad27-1086ff881fb2" />
 <img width="608" height="202" alt="s2" src="https://github.com/user-attachments/assets/393b7e0c-f2bf-4862-b506-e532c6ab8c4a" />
 <img width="609" height="238" alt="s3" src="https://github.com/user-attachments/assets/f88aeaa9-71d3-4360-9ccf-4d0cda71aaaa" />
