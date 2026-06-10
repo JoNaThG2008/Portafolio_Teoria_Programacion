@@ -1,5 +1,42 @@
-<img width="956" height="169" alt="encabezado" src="https://github.com/user-attachments/assets/c1486838-bb63-411c-a2c5-d8b83969b80e" />
-  ## COMPUTACIÓN
+<div align="center">
+
+<img src="logo-unl.png" width="180">
+
+<br><br>
+
+<b>FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y<br>
+LOS RECURSOS NATURALES NO RENOVABLES<br>
+<i>CARRERA COMPUTACIÓN</i></b>
+
+---
+
+# Computación
+
+---
+
+## Teoría de la programación
+
+<br><br>
+
+### Primer Ciclo:
+
+2026
+
+<br><br>
+
+**Docente:** Ing. Lissette Geoconda López Faicán
+
+<br>
+
+**Estudiante:** Jonathan Contento
+
+<br><br><br>
+
+**Loja-Ecuador**
+
+**2026**
+
+</div>
                                                     
 
 <details>
