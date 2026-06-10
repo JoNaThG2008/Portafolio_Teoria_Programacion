@@ -340,13 +340,9 @@ Este trabajo permitió reconocer la importancia de analizar previamente un probl
 
 </details>
 
-<summary>📂 <b>Unidad 3: ---------- </b></summary>
-  <br>
-  <blockquote>
+### Bibliografía 
 
- </details> 
-
-### Bibliografía
+##### Unidad 1
 
 [1] Material de clase de la asignatura Teoría de la Programación, proporcionado por la docente, Universidad Técnica Particular de Loja, Loja, Ecuador, 2026.
 
@@ -361,6 +357,8 @@ Este trabajo permitió reconocer la importancia de analizar previamente un probl
 [6] Universidad Internacional de La Rioja (UNIR México), “¿Qué es un diagrama de flujo y para qué sirve?.” [En línea]. Disponible en: https://mexico.unir.net/noticias/ingenieria/diagrama-flujo/. [Accedido: 10-jun-2026].
 
 [7] Scribd, “¿Qué es la prueba de escritorio en seudocódigo?.” [En línea]. Disponible en: https://es.scribd.com/document/463660396/Que-Es-La-Prueba-de-Escritorio-en-Seudocodigo. [Accedido: 10-jun-2026].
+
+#### Unidad 2 
 
 [8] Universidad de Valladolid, “Bucle for,” Fundamentos de Programación en C++. [En línea]. Disponible en: https://www2.eii.uva.es/fund_inf/cpp/temas/6_control_flujo_iterativo/for.html. [Accedido: 10-jun-2026]. :contentReference[oaicite:0]{index=0}
 
