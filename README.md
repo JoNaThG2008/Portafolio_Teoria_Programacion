@@ -1,76 +1,32 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portada - Teoría de la Programación</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+🗂️ Índice de Contenidos del Portafolio
 
-    <div class="pagina">
+Para facilitar la navegación y cumplir de forma organizada con la rúbrica de evaluación de cada unidad, el portafolio se ha estructurado en módulos independientes. Haz clic en cualquiera de las siguientes secciones para acceder a su respectivo contenido:
 
-        <!-- Encabezado -->
-        <div class="encabezado">
+📂 Unidad 1: Introducción a la Lógica y Estructuras Secuenciales
 
-            <div class="logo-unl">
-                <img src="logo-unl.png" alt="Logo UNL">
-            </div>
+Conceptos fundamentales: Algoritmos, pseudocódigo, diagramas de flujo, pruebas de escritorio, lenguajes de programación, programación por bloques y resolución de un problema práctico con estructuras secuenciales.
 
-            <div class="facultad">
-                <p>FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y</p>
-                <p>LOS RECURSOS NATURALES NO RENOVABLES</p>
-                <p><strong><em>CARRERA COMPUTACIÓN</em></strong></p>
-            </div>
+📂 Unidad 2: Estructuras Condicionales y Repetitivas
 
-        </div>
+Estructuras de control de flujo: Estructuras condicionales (simples, compuestas, anidadas) y repetitivas (mientras, repetir, para, bucles anidados). Incluye el caso de estudio práctico con validación de rango de notas.
 
-        <!-- Adorno superior -->
-        <div class="adorno">
-            ❦
-        </div>
+📂 Unidad 3: Temas Avanzados (No Aplica)
 
-        <!-- Línea -->
-        <div class="linea"></div>
+Sección reservada para contenidos futuros conforme al avance del período académico.
 
-        <!-- Título principal -->
-        <h1 class="titulo-principal">Computación</h1>
+🧠 Declaración de Uso de Inteligencia Artificial (IA) Generativa
 
-        <!-- Línea -->
-        <div class="linea"></div>
+De acuerdo con los lineamientos establecidos por la Carrera de Computación de la UNL:
 
-        <!-- Adorno central -->
-        <div class="adorno-centro">
-            ❧
-        </div>
+💡 Se declara el uso de herramientas de Inteligencia Artificial Generativa (como Gemini/ChatGPT) actuando única y estrictamente bajo el rol de tutor de acompañamiento académico. Se utilizó esta tecnología como recurso de refuerzo para consolidar los conceptos lógicos explicados en clase, optimizar el diseño visual/estructural del portafolio digital utilizando HTML/Markdown y verificar la consistencia de las pruebas de escritorio de los algoritmos diseñados.
 
-        <!-- Materia -->
-        <h2 class="materia">
-            Teoría de la programación
-        </h2>
+📚 Bibliografía General (Norma IEEE)
 
-        <!-- Ciclo -->
-        <div class="ciclo">
-            <h3>Primer Ciclo:</h3>
-            <p>2026</p>
-        </div>
+[1] G. J. Bronson, A First Book of C++: From Some to Advanced, 4a ed. Boston, MA, EE. UU.: Cengage Learning, 2020.
 
-        <!-- Datos -->
-        <div class="datos">
-            <p><strong>Docente:</strong> Ing. Lissette Geoconda López Faicán</p>
-            <p><strong>Estudiante:</strong> Jonathan Contento</p>
-        </div>
+[2] T. H. Cormen, C. E. Leiserson, R. L. Rivest y C. Stein, Introduction to Algorithms, 4a ed. Cambridge, MA, EE. UU.: MIT Press, 2022.
 
-        <!-- Pie -->
-        <div class="pie">
-            <p>Loja-Ecuador</p>
-            <p>2026</p>
-        </div>
-
-    </div>
-
-</body>
-</html>
+[3] J. R. Hanly y E. B. Koffman, Problem Solving and Program Design in C, 8a ed. Boston, MA, EE. UU.: Pearson, 2021.
 
 
 <details>
