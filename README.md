@@ -142,6 +142,7 @@ if (condicion_logica) {
 #### Diagrama de Flujo:
 (Espacio reservado para tu imagen)
 
+--- 
 ### 3. Condicionales Anidadas y Múltiples (if - else if)
 
 Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se ejecutan secuencialmente de arriba hacia abajo; tan pronto como una de las condiciones resulta verdadera, se procesa su bloque correspondiente y se omite el resto de la estructura.
@@ -162,28 +163,134 @@ if (condicion_1) {
     printf("No se cumple ninguna de las condiciones.\n");
 }
 
+#### Diagrama de Flujo:
+(cdg)
+
+🔸 Estructuras Repetitivas (Bucles o Ciclos)
+
+Las estructuras repetitivas permiten ejecutar un bloque de instrucciones de manera recurrente mientras una condición lógica preestablecida se mantenga como verdadera. Son indispensables para simplificar la escritura de código iterativo y procesar grandes volúmenes de datos homogéneos.
+
+A continuación, se detallan los tres tipos de estructuras iterativas nativas en el lenguaje de programación C con sus diagramas de flujo estilizados:
+
+### 1. Bucle Mientras (while)
+
+Es una estructura de control con pre-condición. Evalúa la condición booleana al inicio, antes de entrar al bucle. Si la condición resulta verdadera, se ejecuta el bloque de código y vuelve a comprobarse; si la condición es inicialmente falsa, las instrucciones internas no se ejecutan ninguna vez.
+
+#### Estructura en Lenguaje C:
+
+while (condicion_de_continuidad) {
+    // Instrucciones que se repetirán cíclicamente
+    // Es mandatorio modificar la variable de control aquí dentro
+}
+
 
 #### Diagrama de Flujo:
-flowchart TD
-    A([Inicio]) --> B{¿Condición 1?}
-    B -- Sí --> C[Ejecutar Bloque 1]
-    B -- No --> D{¿Condición 2?}
-    D -- Sí --> E[Ejecutar Bloque 2]
-    D -- No --> F{¿Condición 3?}
-    F -- Sí --> G[Ejecutar Bloque 3]
-    F -- No --> H[Ejecutar Bloque Alternativo <br> (else)]
-    
-    C --> I([Continuar / Fin])
-    E --> I
-    G --> I
-    H --> I
 
-    style A fill:#4CAF50,stroke:#388E3C,stroke-width:2px,color:#fff
-    style B fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
-    style D fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
-    style F fill:#FF9800,stroke:#F57C00,stroke-width:2px,color:#fff
-    style C fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
-    style E fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
-    style G fill:#2196F3,stroke:#1976D2,stroke-width:2px,color:#fff
-    style H fill:#9C27B0,stroke:#7B1FA2,stroke-width:2px,color:#fff
-    style I fill:#F44336,stroke:#D32F2F,stroke-width:2px,color:#fff
+
+
+### 2. Bucle Repetir-Mientras (do-while)
+
+Es una estructura de control con post-condición. A diferencia del ciclo while, este bloque de instrucciones se ejecuta de manera incondicional al menos una vez antes de evaluar la condición por primera vez. Si tras la ejecución de prueba la condición es verdadera, el ciclo se repite; de lo contrario, finaliza.
+
+#### Estructura en Lenguaje C:
+
+do {
+    // Instrucciones que se ejecutarán al menos una vez
+    // Actualización de la variable de control
+} while (condicion_de_continuidad);
+
+
+#### Diagrama de Flujo:
+
+
+
+### 3. Bucle Para (for)
+
+Es una estructura de control iterativa compacta, diseñada específicamente para escenarios donde se conoce con precisión el número de iteraciones de antemano. Agrupa de forma estructurada en su cabecera la inicialización de la variable contadora, la evaluación de continuidad y el incremento o decremento de dicha variable.
+
+#### Estructura en Lenguaje C:
+
+for (inicializacion; condicion_evaluada; incremento_decremento) {
+    // Bloque de instrucciones a repetir N veces
+}
+
+
+#### Diagrama de Flujo:
+jgh
+
+### 4. Bucles Anidados (Anidamiento de Bucles)
+
+El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del cuerpo de otro ciclo (bucle externo). Por cada única vuelta o iteración que realice el bucle externo, el bucle interno se activará y se ejecutará de forma completa (desde su inicio hasta que su condición deje de cumplirse).
+
+Esta combinación es sumamente útil para trabajar con estructuras bidimensionales (como filas y columnas en una matriz), recorrer bases de datos complejas o dibujar patrones en consola.
+
+#### Estructura en Lenguaje C (Ejemplo con dos bucles for):
+
+for (int i = 1; i <= limite_externo; i++) {
+    // Bloque de código del bucle externo (se ejecuta N veces)
+    
+    for (int j = 1; j <= limite_interno; j++) {
+        // Bloque de código del bucle interno (se ejecuta M veces por cada 'i')
+        printf("Fila i = %d | Columna j = %d\n", i, j);
+    }
+}
+
+
+#### Diagrama de Flujo:
+jhf
+
+🔸 Ejercicio con estructura condicional y repetitiva
+
+#### 📝 Planteamiento del Problema
+##### Enunciado: 
+Un docente de la Universidad Nacional de Loja requiere un programa para calcular el promedio de la nota final ponderada de múltiples estudiantes (el programa debe preguntar la cantidad de alumnos a procesar).
+
+Para cada estudiante se ingresarán las notas de 4 componentes de evaluación académica: ACD (Aprendizaje en Contacto con el Docente), AA (Aprendizaje Autónomo), APE (Aprendizaje Práctico Experimental), y Examen (Examen de Fin de Unidad/Ciclo).
+
+##### El programa debe cumplir obligatoriamente con los siguientes requisitos lógicos:
+
+- Solicitar el número de estudiantes a los cuales se les calculará la nota final.
+
+- Utilizar bucles de post-condición (do-while) para validar individualmente que cada una de las calificaciones ingresadas se encuentre estrictamente dentro del rango de 0 a 10 puntos (si se introduce una nota fuera del rango, se muestra un mensaje de advertencia y se repite el ingreso).
+
+- Calcular la Nota Final ($nF$) mediante las ponderaciones oficiales del ciclo académico actual:
+
+Ponderación ACD: 20% ($0.20$)
+
+Ponderación AA: 20% ($0.20$)
+
+Ponderación APE: 25% ($0.25$)
+
+Ponderación Examen: 35% ($0.35$)
+
+##### Evaluar cualitativamente la calificación de la unidad para cada estudiante con la estructura condicional anidada correspondiente:
+
+- EXCELENTE: $[9.0, 10.0]$
+
+- BUENA: $[7.0, 9.0)$
+
+- REGULAR: $[5.0, 7.0)$
+
+- DEFICIENTE: $[0.0, 5.0)$
+
+
+#### 🔍 Análisis del Problema
+
+
+#### 📐 Diseño del Algoritmo
+
+
+
+
+#### Representación en Diagrama de Flujo (Mermaid):
+
+
+
+💻 Codificación (Código Fuente en Lenguaje C)
+
+
+📊 Validación (Prueba de Escritorio)
+
+
+
+
