@@ -128,13 +128,7 @@ Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la c
 
 #### Estructura en Pseudocódigo:
 
-if (condicion_logica) {
-    // "Bloque A": Se ejecuta si la condición es verdadera
-    printf("Se cumple la condición (Caso A).\n");
-} else {
-    // "Bloque B": Se ejecuta si la condición es falsa
-    printf("No se cumple la condición (Caso B).\n");
-}
+<img width="596" height="187" alt="if_else" src="https://github.com/user-attachments/assets/2aa4a6bb-e8ef-4f1d-acde-313cdc20edf8" />
 
 
 #### Diagrama de Flujo:
@@ -147,19 +141,8 @@ Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se e
 
 #### Estructura en Pseudocódigo:
 
-if (condicion_1) {
-    // Se ejecutará si se cumple la primera condición
-    printf("Se cumple la primera condición.\n");
-} else if (condicion_2) {
-    // Se ejecutará si no se cumple la primera, pero sí la segunda
-    printf("No se cumple la primera, pero se cumple la segunda.\n");
-} else if (condicion_3) {
-    // Se ejecutará si no se cumplen las anteriores, pero sí la tercera
-    printf("No se cumple ni la primera ni la segunda, pero se cumple la tercera.\n");
-} else {
-    // Se ejecutará si no se cumple ninguna de las condiciones anteriores
-    printf("No se cumple ninguna de las condiciones.\n");
-}
+<img width="865" height="345" alt="else_if" src="https://github.com/user-attachments/assets/aa325cbb-9209-43c9-923e-fa55137c03a2" />
+
 
 #### Diagrama de Flujo:
 (cdg)
@@ -176,10 +159,7 @@ Es una estructura de control con pre-condición. Evalúa la condición booleana 
 
 #### Estructura en Lenguaje C:
 
-while (condicion_de_continuidad) {
-    // Instrucciones que se repetirán cíclicamente
-    // Es mandatorio modificar la variable de control aquí dentro
-}
+<img width="660" height="138" alt="while" src="https://github.com/user-attachments/assets/b8cd67fa-fcbd-4cac-b74a-efcbd9a73039" />
 
 
 #### Diagrama de Flujo:
@@ -192,10 +172,7 @@ Es una estructura de control con post-condición. A diferencia del ciclo while, 
 
 #### Estructura en Lenguaje C:
 
-do {
-    // Instrucciones que se ejecutarán al menos una vez
-    // Actualización de la variable de control
-} while (condicion_de_continuidad);
+<img width="597" height="130" alt="do_while" src="https://github.com/user-attachments/assets/d07bf89b-56e6-4518-907e-3a9e31bd412d" />
 
 
 #### Diagrama de Flujo:
@@ -208,10 +185,7 @@ Es una estructura de control iterativa compacta, diseñada específicamente para
 
 #### Estructura en Lenguaje C:
 
-for (inicializacion; condicion_evaluada; incremento_decremento) {
-    // Bloque de instrucciones a repetir N veces
-}
-
+<img width="798" height="226" alt="for_for" src="https://github.com/user-attachments/assets/ae9817bc-1f11-43fd-a6da-0edc71fb4f9a" />
 
 #### Diagrama de Flujo:
 jgh
@@ -225,15 +199,7 @@ Esta combinación es sumamente útil para trabajar con estructuras bidimensional
 
 #### Estructura en Lenguaje C (Ejemplo con dos bucles for):
 
-for (int i = 1; i <= limite_externo; i++) {
-    // Bloque de código del bucle externo (se ejecuta N veces)
-    
-    for (int j = 1; j <= limite_interno; j++) {
-        // Bloque de código del bucle interno (se ejecuta M veces por cada 'i')
-        printf("Fila i = %d | Columna j = %d\n", i, j);
-    }
-}
-
+<img width="798" height="226" alt="for_for" src="https://github.com/user-attachments/assets/d800f695-ce69-4cc1-a42e-afd8f9776de2" />
 
 #### Diagrama de Flujo:
 jhf
