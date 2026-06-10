@@ -1,13 +1,13 @@
 <div align="center">
 
-<img width="450" height="300" alt="Sello_UNL" src="https://github.com/user-attachments/assets/335b6df9-6fd3-4de7-a18f-a93587b720eb" />
-
-
 <br><br>
 
 <b>FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y<br>
 LOS RECURSOS NATURALES NO RENOVABLES<br>
 <i>CARRERA COMPUTACIÓN</i></b>
+
+<img width="450" height="300" alt="Sello_UNL" src="https://github.com/user-attachments/assets/335b6df9-6fd3-4de7-a18f-a93587b720eb" />
+
 
 ---
 
