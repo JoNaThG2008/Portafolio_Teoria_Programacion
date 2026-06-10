@@ -290,9 +290,23 @@ Valoración cualitativa obtenida por el estudiante en la unidad.
 
 #### Representación en Diagrama de Flujo:
 
+<img width="1167" height="899" alt="dF1" src="https://github.com/user-attachments/assets/b71c716e-0e84-4d9f-8214-83cc8c956b55" />
+<img width="1171" height="870" alt="dF2" src="https://github.com/user-attachments/assets/1e83d8a2-862a-442e-bb06-b54254b93bf1" />
+<img width="1174" height="458" alt="dF3" src="https://github.com/user-attachments/assets/587f9bd9-2e4b-4cba-89c1-05962d218f5c" />
 
 
-####  Validación (Prueba de Escritorio)
+#### Prueba de Escritorio
+
+
+
+
+
+
+#### Salida en el Programa
+<img width="709" height="214" alt="s1" src="https://github.com/user-attachments/assets/c8769a1c-702b-41d4-ad27-1086ff881fb2" />
+<img width="608" height="202" alt="s2" src="https://github.com/user-attachments/assets/393b7e0c-f2bf-4862-b506-e532c6ab8c4a" />
+<img width="609" height="238" alt="s3" src="https://github.com/user-attachments/assets/f88aeaa9-71d3-4360-9ccf-4d0cda71aaaa" />
+<img width="625" height="107" alt="s4" src="https://github.com/user-attachments/assets/a81790f0-0b0e-4562-8430-d9ec459689f8" />
 
 
 
