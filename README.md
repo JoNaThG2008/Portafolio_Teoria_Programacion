@@ -1,5 +1,5 @@
 <img width="956" height="169" alt="encabezado" src="https://github.com/user-attachments/assets/c1486838-bb63-411c-a2c5-d8b83969b80e" />
-  # COMPUTACIÓN
+  ## COMPUTACIÓN
                                                     
 
 <details>
