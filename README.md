@@ -1,13 +1,77 @@
-# Universidad Nacional De Loja 
-## Facultad de la Energía, las Industrias y los Recursos Naturales No Renovables
-### Carrera de Computación
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada - Teoría de la Programación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-**Asignatura:** Teoría de la Programación - Unidad 2
-**Título:** Portafolio Digital de Aprendizaje
-**Estudiante:** Jonathan Contento 
-**Ciclo:** 1
-**Período Académico:** 2026
-**Docente:** Lissette Geoconda López Faicán
+    <div class="pagina">
+
+        <!-- Encabezado -->
+        <div class="encabezado">
+
+            <div class="logo-unl">
+                <img src="logo-unl.png" alt="Logo UNL">
+            </div>
+
+            <div class="facultad">
+                <p>FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y</p>
+                <p>LOS RECURSOS NATURALES NO RENOVABLES</p>
+                <p><strong><em>CARRERA COMPUTACIÓN</em></strong></p>
+            </div>
+
+        </div>
+
+        <!-- Adorno superior -->
+        <div class="adorno">
+            ❦
+        </div>
+
+        <!-- Línea -->
+        <div class="linea"></div>
+
+        <!-- Título principal -->
+        <h1 class="titulo-principal">Computación</h1>
+
+        <!-- Línea -->
+        <div class="linea"></div>
+
+        <!-- Adorno central -->
+        <div class="adorno-centro">
+            ❧
+        </div>
+
+        <!-- Materia -->
+        <h2 class="materia">
+            Teoría de la programación
+        </h2>
+
+        <!-- Ciclo -->
+        <div class="ciclo">
+            <h3>Primer Ciclo:</h3>
+            <p>2026</p>
+        </div>
+
+        <!-- Datos -->
+        <div class="datos">
+            <p><strong>Docente:</strong> Ing. Lissette Geoconda López Faicán</p>
+            <p><strong>Estudiante:</strong> Jonathan Contento</p>
+        </div>
+
+        <!-- Pie -->
+        <div class="pie">
+            <p>Loja-Ecuador</p>
+            <p>2026</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
 
 <details>
   <summary>📂 <b>Unidad 1: Algoritmo, pseudocódigo, diagrama de flujo, prueba de escritorio y lenguajes de programación.</b></summary>
