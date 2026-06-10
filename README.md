@@ -131,6 +131,9 @@ De conformidad con los lineamientos éticos de la Carrera de Computación de la 
   <summary>📂 <b>Unidad 2: Estructuras Condicionales y Repetitivas</b></summary>
   <br>
   <blockquote>
+
+  ### 1. Contenidos 📖
+
     
  🔸 Estructuras Condicionales
     
@@ -139,7 +142,7 @@ Las estructuras condicionales son aquellas que nos permiten dividir el camino de
 
 ---
 
-#### 1. Condicionales Simples (Si / if)
+####  Condicionales Simples (Si / if)
 
 Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero, se ejecuta un bloque específico de instrucciones. Si es Falso, el programa ignora dicho bloque y continúa con la siguiente línea secuencial de código.
 
@@ -156,7 +159,7 @@ Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero,
 
 ---
 
-### 2. Condicionales Compuestas (Si-Sino / if-else)
+###  Condicionales Compuestas (Si-Sino / if-else)
 
 Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la condición evaluada resulta Verdadero, se ejecuta el primer bloque de instrucciones; si resulta Falso, se ejecuta obligatoriamente el otro bloque de instrucciones.
 
@@ -172,7 +175,7 @@ Ofrecen dos caminos o alternativas de ejecución mutuamente excluyentes. Si la c
 
 --- 
 
-### 3. Condicionales Anidadas y Múltiples (if - else if)
+###  Condicionales Anidadas y Múltiples (if - else if)
 
 Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se ejecutan secuencialmente de arriba hacia abajo; tan pronto como una de las condiciones resulta verdadera, se procesa su bloque correspondiente y se omite el resto de la estructura.
 
@@ -195,7 +198,7 @@ Las estructuras repetitivas permiten ejecutar un bloque de instrucciones de mane
 
 --- 
 
-### 1. Bucle Mientras (while)
+###  Bucle Mientras (while)
 
 Es una estructura de control con pre-condición. Evalúa la condición al inicio, antes de entrar al bucle. Si la condición resulta verdadera, se ejecuta el bloque de código y vuelve a comprobarse; si la condición es falsa, las instrucciones internas no se ejecutan ninguna vez.
 
@@ -212,7 +215,7 @@ Es una estructura de control con pre-condición. Evalúa la condición al inicio
 
 --- 
 
-### 2. Bucle Repetir-Mientras (do-while)
+###  Bucle Repetir-Mientras (do-while)
 
 Es una estructura de control con post-condición. A diferencia del ciclo while, este bloque de instrucciones se ejecuta de manera obligatoria al menos una vez antes de evaluar la condición por primera vez. Si tras la ejecución de prueba la condición es verdadera, el ciclo se repite; de lo contrario, finaliza.
 
@@ -229,7 +232,7 @@ Es una estructura de control con post-condición. A diferencia del ciclo while, 
 
 --- 
 
-### 3. Bucle Para (for)
+###  Bucle Para (for)
 
 Es una estructura de control compacta, diseñada específicamente para escenarios donde se conoce el número de iteraciones de antemano. Agrupa de forma estructurada en su cabecera la inicialización de la variable, la condición y el incremento o decremento de dicha variable.
 
@@ -245,7 +248,7 @@ Es una estructura de control compacta, diseñada específicamente para escenario
 
 --- 
 
-### 4. Bucles Anidados (Anidamiento de Bucles)
+###  Bucles Anidados (Anidamiento de Bucles)
 
 El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del cuerpo de otro ciclo (bucle externo). Por cada única vuelta o iteración que realice el bucle externo, el bucle interno se activará y se ejecutará de forma completa (desde su inicio hasta que su condición deje de cumplirse).
 
@@ -260,7 +263,7 @@ El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del
 
 --- 
 
-🔸 Ejercicio con estructura condicional y repetitiva
+### 2. Ejercicio con estructura condicional y repetitiva
 
 #### 📝 Planteamiento del Problema
 ##### Enunciado: 
@@ -274,25 +277,25 @@ Para cada estudiante se ingresarán las notas de 4 componentes de evaluación ac
 
 - Utilizar bucles de post-condición (do-while) para validar individualmente que cada una de las calificaciones ingresadas se encuentre estrictamente dentro del rango de 0 a 10 puntos (si se introduce una nota fuera del rango, se muestra un mensaje de advertencia y se repite el ingreso).
 
-- Calcular la Nota Final ($nF$) mediante las ponderaciones oficiales del ciclo académico actual:
+- Calcular la Nota Final (nF) mediante las ponderaciones oficiales del ciclo académico actual:
 
-   -Ponderación ACD: 20% ($0.20$)
+   -Ponderación ACD: 20% (0.20)
 
-   -Ponderación AA: 20% ($0.20$)
+   -Ponderación AA: 20% (0.20)
 
-   -Ponderación APE: 25% ($0.25$)
+   -Ponderación APE: 25% (0.25)
 
-   -Ponderación Examen: 35% ($0.35$)
+   -Ponderación Examen: 35% (0.35)
 
 ##### Evaluar cualitativamente la calificación de la unidad para cada estudiante con la estructura condicional anidada correspondiente:
 
-- EXCELENTE: $[9.0, 10.0]$
+- EXCELENTE: [9.0, 10.0]
 
-- BUENA: $[7.0, 9.0)$
+- BUENA: [7.0, 9.0)
 
-- REGULAR: $[5.0, 7.0)$
+- REGULAR: [5.0, 7.0)
 
-- DEFICIENTE: $[0.0, 5.0)$
+- DEFICIENTE: [0.0, 5.0)
 
 
 #### 🔍 Análisis del Problema
@@ -312,19 +315,19 @@ Bucles do-while internos de validación con expresión condicional de rango: (no
 ##### Cálculos matemáticos de ponderación individual:
 
 
-$$pACD = notaACD \times 0.20$$
+pACD = notaACD \times 0.20
 
-$$pAA = notaAA \times 0.20$$
+pAA = notaAA \times 0.20
 
-$$pAPE = notaAPE \times 0.25$$
+pAPE = notaAPE \times 0.25
 
-$$pEs = notaES \times 0.35$$
+pEs = notaES \times 0.35
 
 
 ##### Cálculo de la Nota Final acumulada:
 
 
-$$nF = pACD + pAA + pAPE + pEs$$
+nF = pACD + pAA + pAPE + pEs
 
 Clasificación lógica anidada (if-else if-else) según las escalas de evaluación cualitativas indicadas en el problema.
 
@@ -364,5 +367,14 @@ Valoración de la nota de unidad de los  estudianteas ingresadas.
 <img width="625" height="107" alt="s4" src="https://github.com/user-attachments/assets/a81790f0-0b0e-4562-8430-d9ec459689f8" />
 
 
+### 3. 🧠 Reflexión Crítica y Dificultades Generales
+
+En esta unidad las principales dificultades fueron que la implementación de estructuras condicionales y repetitivas requirió bastante práctica para comprender su funcionamiento y para poder utilizarlas correctamente, especialmente en procesos de validación de datos y control de ciclos. A medida que se realizaron ejercicios y pruebas, fue posible fortalecer la comprensión de estas estructuras y su aplicación en lenguaje C.
+
+Este trabajo permitió reconocer la importancia de analizar previamente un problema y planificar la solución antes de comenzar a programar, ya que esto facilita el desarrollo del código y reduce la posibilidad de errores.
+
+### 4. 🧠 Declaración de Uso de Inteligencia Artificial (IA) Generativa
+
+💡 En este portafolio se utilizaron herramientas de Inteligencia Artificial como Gemini y ChatGPT para servir de apoyo como un tutor de acompañamiento. Se emplearon principalmente para comprender de mejor manera los temas de clase cuando se presentaron dudas, revisar que la lógica de los códigos en C y las pruebas de escritorio estén bien planteadas, y también para aprender a estructurar de forma clara y ordenada todos los documentos usando Markdown en el repositorio.
 
 
