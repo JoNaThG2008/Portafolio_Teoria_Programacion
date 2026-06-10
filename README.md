@@ -151,7 +151,6 @@ Representan la forma de evaluar múltiples condiciones lógicas en cascada. Se e
 
 Las estructuras repetitivas permiten ejecutar un bloque de instrucciones de manera recurrente mientras una condición lógica preestablecida se mantenga como verdadera. Son indispensables para simplificar la escritura de código iterativo y procesar grandes volúmenes de datos homogéneos.
 
-A continuación, se detallan los tres tipos de estructuras iterativas nativas en el lenguaje de programación C con sus diagramas de flujo estilizados:
 --- 
 ### 1. Bucle Mientras (while)
 
@@ -185,7 +184,8 @@ Es una estructura de control iterativa compacta, diseñada específicamente para
 
 #### Estructura en Lenguaje C:
 
-<img width="798" height="226" alt="for_for" src="https://github.com/user-attachments/assets/ae9817bc-1f11-43fd-a6da-0edc71fb4f9a" />
+<img width="647" height="97" alt="for" src="https://github.com/user-attachments/assets/612ce1ea-d8f1-4b8e-b664-86f1d7b931d0" />
+
 
 #### Diagrama de Flujo:
 jgh
@@ -282,6 +282,9 @@ Valoración cualitativa obtenida por el estudiante en la unidad.
 
 #### 📐 Diseño del Algoritmo
 
+<img width="635" height="428" alt="Codigo1" src="https://github.com/user-attachments/assets/573760d4-a6c0-467f-9945-4b282a2dde31" />
+<img width="635" height="409" alt="Codigo2" src="https://github.com/user-attachments/assets/546faf74-5ae9-47b7-902a-60f5e3166f50" />
+<img width="573" height="361" alt="Codigo 3" src="https://github.com/user-attachments/assets/ccff304b-ef26-45bb-bfda-68ec07b66b81" />
 
 
 
