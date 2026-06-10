@@ -115,10 +115,8 @@ Evalúan una condición lógica. Si el resultado de la evaluación es Verdadero,
 
 #### Estructura en Pseudocódigo:
 
-if (condicion_logica) {
-    // Esto se ejecutará si la condición es verdadera
-    printf("La condición es verdadera.\n");
-}
+<img width="542" height="126" alt="if" src="https://github.com/user-attachments/assets/aa2a3d89-8ebc-4ffe-8e97-ad83200b1957" />
+
 
 #### Diagrama de Flujo:
 (Espacio reservado para tu imagen)
@@ -171,7 +169,7 @@ if (condicion_1) {
 Las estructuras repetitivas permiten ejecutar un bloque de instrucciones de manera recurrente mientras una condición lógica preestablecida se mantenga como verdadera. Son indispensables para simplificar la escritura de código iterativo y procesar grandes volúmenes de datos homogéneos.
 
 A continuación, se detallan los tres tipos de estructuras iterativas nativas en el lenguaje de programación C con sus diagramas de flujo estilizados:
-
+--- 
 ### 1. Bucle Mientras (while)
 
 Es una estructura de control con pre-condición. Evalúa la condición booleana al inicio, antes de entrar al bucle. Si la condición resulta verdadera, se ejecuta el bloque de código y vuelve a comprobarse; si la condición es inicialmente falsa, las instrucciones internas no se ejecutan ninguna vez.
@@ -187,7 +185,7 @@ while (condicion_de_continuidad) {
 #### Diagrama de Flujo:
 
 
-
+--- 
 ### 2. Bucle Repetir-Mientras (do-while)
 
 Es una estructura de control con post-condición. A diferencia del ciclo while, este bloque de instrucciones se ejecuta de manera incondicional al menos una vez antes de evaluar la condición por primera vez. Si tras la ejecución de prueba la condición es verdadera, el ciclo se repite; de lo contrario, finaliza.
@@ -203,7 +201,7 @@ do {
 #### Diagrama de Flujo:
 
 
-
+--- 
 ### 3. Bucle Para (for)
 
 Es una estructura de control iterativa compacta, diseñada específicamente para escenarios donde se conoce con precisión el número de iteraciones de antemano. Agrupa de forma estructurada en su cabecera la inicialización de la variable contadora, la evaluación de continuidad y el incremento o decremento de dicha variable.
@@ -218,6 +216,7 @@ for (inicializacion; condicion_evaluada; incremento_decremento) {
 #### Diagrama de Flujo:
 jgh
 
+--- 
 ### 4. Bucles Anidados (Anidamiento de Bucles)
 
 El anidamiento de bucles consiste en colocar un ciclo (bucle interno) dentro del cuerpo de otro ciclo (bucle externo). Por cada única vuelta o iteración que realice el bucle externo, el bucle interno se activará y se ejecutará de forma completa (desde su inicio hasta que su condición deje de cumplirse).
@@ -238,7 +237,7 @@ for (int i = 1; i <= limite_externo; i++) {
 
 #### Diagrama de Flujo:
 jhf
-
+--- 
 🔸 Ejercicio con estructura condicional y repetitiva
 
 #### 📝 Planteamiento del Problema
@@ -255,13 +254,13 @@ Para cada estudiante se ingresarán las notas de 4 componentes de evaluación ac
 
 - Calcular la Nota Final ($nF$) mediante las ponderaciones oficiales del ciclo académico actual:
 
-Ponderación ACD: 20% ($0.20$)
+   -Ponderación ACD: 20% ($0.20$)
 
-Ponderación AA: 20% ($0.20$)
+   -Ponderación AA: 20% ($0.20$)
 
-Ponderación APE: 25% ($0.25$)
+   -Ponderación APE: 25% ($0.25$)
 
-Ponderación Examen: 35% ($0.35$)
+   -Ponderación Examen: 35% ($0.35$)
 
 ##### Evaluar cualitativamente la calificación de la unidad para cada estudiante con la estructura condicional anidada correspondiente:
 
@@ -276,20 +275,55 @@ Ponderación Examen: 35% ($0.35$)
 
 #### 🔍 Análisis del Problema
 
+##### Entradas (Datos requeridos):
+
+nEs (Entero: cantidad total de estudiantes a procesar).
+
+Para cada estudiante ingresado en la iteración: notaACD, notaAA, notaAPE, notaES (Números reales).
+
+Procesos (Operaciones):
+
+Un ciclo de control for que itera la variable rep desde 1 hasta el total nEs ingresado.
+
+Bucles do-while internos de validación con expresión condicional de rango: (nota < 0 || nota > 10).
+
+##### Cálculos matemáticos de ponderación individual:
+
+
+$$pACD = notaACD \times 0.20$$
+
+$$pAA = notaAA \times 0.20$$
+
+$$pAPE = notaAPE \times 0.25$$
+
+$$pEs = notaES \times 0.35$$
+
+##### Cálculo de la Nota Final acumulada:
+
+
+$$nF = pACD + pAA + pAPE + pEs$$
+
+Clasificación lógica anidada (if-else if-else) según las escalas de evaluación cualitativas indicadas en el problema.
+
+Salidas (Resultados impresos en consola):
+
+Desglose detallado de los promedios ponderados obtenidos por componente.
+
+Nota final resultante en escala decimal.
+
+Valoración cualitativa obtenida por el estudiante en la unidad.
+
 
 #### 📐 Diseño del Algoritmo
 
 
 
 
-#### Representación en Diagrama de Flujo (Mermaid):
+#### Representación en Diagrama de Flujo:
 
 
 
-💻 Codificación (Código Fuente en Lenguaje C)
-
-
-📊 Validación (Prueba de Escritorio)
+####  Validación (Prueba de Escritorio)
 
 
 
