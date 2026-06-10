@@ -297,10 +297,6 @@ Número Fibonacci correspondiente a la posición ingresada.
 
 #### 📊 Prueba de Escritorio
 
-Sí. Para que se vea correctamente en un **README de GitHub**, puedes usar esta tabla en formato Markdown:
-
-### Prueba de escritorio
-
 **Dato de entrada:** `n = 6`
 
 | Paso           | cont | ant1 | ant2 | suma |
@@ -343,6 +339,12 @@ Este trabajo permitió reconocer la importancia de analizar previamente un probl
 💡 En este portafolio se utilizaron herramientas de Inteligencia Artificial como Gemini y ChatGPT para servir de apoyo como un tutor de acompañamiento. Se emplearon principalmente para comprender de mejor manera los temas de clase cuando se presentaron dudas, revisar que la lógica de los códigos en C y las pruebas de escritorio estén bien planteadas, y también para aprender a estructurar de forma clara y ordenada todos los documentos usando Markdown en el repositorio.
 
 </details>
+
+<summary>📂 <b>Unidad 3: ---------- </b></summary>
+  <br>
+  <blockquote>
+
+ </details> 
 
 ### Bibliografía
 
