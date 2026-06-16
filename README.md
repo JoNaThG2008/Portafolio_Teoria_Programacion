@@ -1,17 +1,12 @@
 <div align="center">
 
 <br><br>
-<h1 align="center">Universidad Nacional de Loja</h1>
-<p align="center">
-  <b>Facultad de Energía, las Industrias y los Recursos Naturales no Renovables</b><br>
-  <span> Carrera de Computación</span> 💻
-</p>
 <b>FACULTAD DE LA ENERGÍA, LAS INDUSTRIAS Y<br>
 LOS RECURSOS NATURALES NO RENOVABLES<br>
 
+--- 
 
 <img width="450" height="300" alt="Sello_UNL" src="https://github.com/user-attachments/assets/335b6df9-6fd3-4de7-a18f-a93587b720eb" />
-
 
 ---
 
@@ -37,9 +32,7 @@ LOS RECURSOS NATURALES NO RENOVABLES<br>
 
 <br><br><br>
 
-**Loja-Ecuador**
-
-**2026**
+**Loja-Ecuador-2026**
 
 </div>
                                                     
