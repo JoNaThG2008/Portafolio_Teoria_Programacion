@@ -40,7 +40,7 @@ LOS RECURSOS NATURALES NO RENOVABLES<br>
                                                     
 # Portafolio Teoria de la Programación 
 
----
+
 
 <details>
   <summary>📂 <b>Unidad 1: Algoritmo, pseudocódigo, diagrama de flujo, prueba de escritorio y lenguajes de programación.</b></summary>
