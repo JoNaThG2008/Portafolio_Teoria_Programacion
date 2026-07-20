@@ -51,7 +51,7 @@ Este mecanismo resulta útil cuando únicamente se desea utilizar el valor recib
 
 ### 💻 Ejemplo en Lenguaje C
 
-> *(Aquí colocaré el código del ejemplo de paso por valor.)*
+<img width="731" height="522" alt="i1" src="https://github.com/user-attachments/assets/2acf3961-a8a2-44c6-9cae-3416b2bff889" />
 
 ```c
 // Código del ejemplo
