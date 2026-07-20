@@ -83,7 +83,7 @@ LOS RECURSOS NATURALES NO RENOVABLES<br>
 
 El aprendizaje a lo largo de este primer ciclo en Teoría de la Programación me ha permitido desarrollar una base lógica sólida y estructurada. A través de los Fundamentos de la Programación, aprendí a traducir problemas del mundo real en algoritmos mediante el uso correcto de variables y tipos de datos. Posteriormente, las Estructuras Condicionales y Repetitivas le dieron dinamismo y control al código, permitiendo que los programas tomen decisiones inteligentes y automaticen tareas complejas sin necesidad de duplicar líneas de manera innecesaria. El manejo de la información dio un gran salto con la introducción de los Arreglos, herramientas clave para almacenar y manipular grandes volúmenes de datos de forma masiva y ordenada en la memoria. Finalmente, la Modularidad unió todos estos conceptos bajo la premisa de "divide y vencerás", enseñándome a fragmentar problemas robustos en funciones independientes para lograr un código limpio, legible y fácil de mantener. En conclusión, la integración de estos conocimientos me ha transformado de un estudiante que asimila conceptos básicos a un futuro desarrollador capaz de diseñar programas completos, eficientes y escalables, con las competencias necesarias para afrontar los retos de los siguientes niveles.
 
-🤖 Declaración de Uso de Inteligencia Artificial Generativa
+## 🤖 Declaración de Uso de Inteligencia Artificial Generativa
 
 Durante el desarrollo de este portafolio se utilizaron herramientas de Inteligencia Artificial Generativa, principalmente Gemini (desarrollado por Google) y ChatGPT (desarrollado por OpenAI), como recursos de apoyo tecnológico para el proceso de aprendizaje.
 
