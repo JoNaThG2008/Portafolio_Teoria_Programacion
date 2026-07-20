@@ -3,6 +3,8 @@
 # 📘 Unidad 3
 ## Modularidad y Arreglos en Lenguaje C
 
+*"La modularidad y el uso de arreglos permiten desarrollar programas más organizados, reutilizables y eficientes, facilitando la solución de problemas de mayor complejidad mediante una correcta estructuración del código."*
+
 </div>
 
 ---
@@ -49,19 +51,21 @@ Este mecanismo resulta útil cuando únicamente se desea utilizar el valor recib
 
 ### 💻 Ejemplo en Lenguaje C
 
-<div align="center">
+> *(Aquí colocaré el código del ejemplo de paso por valor.)*
 
-<img src="i1.png" width="600">
+```c
+// Código del ejemplo
+```
 
-</div>
+### 🖥️ Ejecución del programa
 
-### 📌 Resultado del programa
+> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
 
-<div align="center">
+<p align="center">
 
-<img src="i6.png" width="600">
+**📷 Captura del programa**
 
-</div>
+</p>
 
 ---
 
@@ -73,19 +77,21 @@ Este tipo de paso de parámetros resulta especialmente útil cuando se desea mod
 
 ### 💻 Ejemplo en Lenguaje C
 
-<div align="center">
+> *(Aquí colocaré el código del ejemplo de paso por referencia.)*
 
-<img src="i2.png" width="600">
+```c
+// Código del ejemplo
+```
 
-</div>
+### 🖥️ Ejecución del programa
 
-### 📌 Resultado del programa
+> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
 
-<div align="center">
+<p align="center">
 
-<img src="i7.png" width="600">
+**📷 Captura del programa**
 
-</div>
+</p>
 
 ---
 
@@ -105,19 +111,21 @@ Se utilizan principalmente para almacenar listas de números, nombres, calificac
 
 ### 💻 Ejemplo en Lenguaje C
 
-<div align="center">
+> *(Aquí colocaré el código del arreglo unidimensional.)*
 
-<img src="i3.png" width="600">
+```c
+// Código del ejemplo
+```
 
-</div>
+### 🖥️ Ejecución del programa
 
-### 📌 Resultado del programa
+> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
 
-<div align="center">
+<p align="center">
 
-<img src="i8.png" width="600">
+**📷 Captura del programa**
 
-</div>
+</p>
 
 ---
 
@@ -129,19 +137,21 @@ Son ampliamente utilizados para representar información tabular, operaciones ma
 
 ### 💻 Ejemplo en Lenguaje C
 
-<div align="center">
+> *(Aquí colocaré el código del arreglo bidimensional.)*
 
-<img src="i4.png" width="600">
+```c
+// Código del ejemplo
+```
 
-</div>
+### 🖥️ Ejecución del programa
 
-### 📌 Resultado del programa
+> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
 
-<div align="center">
+<p align="center">
 
-<img src="i9.png" width="600">
+**📷 Captura del programa**
 
-</div>
+</p>
 
 ---
 
@@ -153,19 +163,21 @@ Este tipo de estructura suele utilizarse para representar conjuntos de matrices,
 
 ### 💻 Ejemplo en Lenguaje C
 
-<div align="center">
+> *(Aquí colocaré el código del arreglo tridimensional.)*
 
-<img src="i5.png" width="600">
+```c
+// Código del ejemplo
+```
 
-</div>
+### 🖥️ Ejecución del programa
 
-### 📌 Resultado del programa
+> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
 
-<div align="center">
+<p align="center">
 
-<img src="i10.png" width="600">
+**📷 Captura del programa**
 
-</div>
+</p>
 
 ---
 
