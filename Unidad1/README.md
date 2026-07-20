@@ -196,12 +196,6 @@ Con el desarrollo de ejercicios secuenciales fue posible fortalecer el razonamie
 
 ---
 
-# 🤖 Declaración de uso de IA Generativa
-
-Se utilizó **Gemini**, modelo de lenguaje desarrollado por Google, como herramienta de apoyo durante el proceso de aprendizaje. Su uso estuvo orientado a comprender la sintaxis Markdown, mejorar la organización visual del portafolio digital, verificar la lógica de algunos ejercicios y apoyar la interpretación de conceptos teóricos, respetando en todo momento los principios de integridad académica establecidos por la Universidad Nacional de Loja.
-
----
-
 <div align="center">
 
 ### ✔️ Fin del contenido de la Unidad 1
