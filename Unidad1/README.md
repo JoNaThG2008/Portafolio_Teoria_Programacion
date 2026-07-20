@@ -3,7 +3,6 @@
 # 📘 Unidad 1
 ## Fundamentos de la Programación
 
-*"Antes de escribir código, es necesario aprender a analizar problemas, diseñar algoritmos y representar soluciones de forma lógica y ordenada."*
 
 </div>
 
