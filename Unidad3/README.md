@@ -3,8 +3,6 @@
 # 📘 Unidad 3
 ## Modularidad y Arreglos en Lenguaje C
 
-*"La modularidad y el uso de arreglos permiten desarrollar programas más organizados, reutilizables y eficientes, facilitando la solución de problemas de mayor complejidad mediante una correcta estructuración del código."*
-
 </div>
 
 ---
@@ -53,19 +51,13 @@ Este mecanismo resulta útil cuando únicamente se desea utilizar el valor recib
 
 <img width="731" height="522" alt="i1" src="https://github.com/user-attachments/assets/2acf3961-a8a2-44c6-9cae-3416b2bff889" />
 
-```c
-// Código del ejemplo
-```
 
 ### 🖥️ Ejecución del programa
+<img width="256" height="67" alt="i6" src="https://github.com/user-attachments/assets/4bf18cae-9bab-4cf7-a636-dc96429ae0ae" />
 
-> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
+
 
 <p align="center">
-
-**📷 Captura del programa**
-
-</p>
 
 ---
 
@@ -77,21 +69,15 @@ Este tipo de paso de parámetros resulta especialmente útil cuando se desea mod
 
 ### 💻 Ejemplo en Lenguaje C
 
-> *(Aquí colocaré el código del ejemplo de paso por referencia.)*
+<img width="682" height="487" alt="i2" src="https://github.com/user-attachments/assets/d04d06b9-7370-4991-af05-c579d52dc5ad" />
 
-```c
-// Código del ejemplo
-```
 
 ### 🖥️ Ejecución del programa
 
-> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
+<img width="252" height="47" alt="i7" src="https://github.com/user-attachments/assets/953c2f30-8396-4cbf-b218-e291d856ff2f" />
+
 
 <p align="center">
-
-**📷 Captura del programa**
-
-</p>
 
 ---
 
@@ -111,21 +97,16 @@ Se utilizan principalmente para almacenar listas de números, nombres, calificac
 
 ### 💻 Ejemplo en Lenguaje C
 
-> *(Aquí colocaré el código del arreglo unidimensional.)*
+<img width="497" height="360" alt="i3" src="https://github.com/user-attachments/assets/82530183-79f5-4bb1-91bf-f2007fc89bf0" />
 
-```c
-// Código del ejemplo
-```
 
 ### 🖥️ Ejecución del programa
 
-> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
+<img width="212" height="51" alt="i8" src="https://github.com/user-attachments/assets/ce73dae0-e415-4c64-bb48-877babf8f4a0" />
+
 
 <p align="center">
 
-**📷 Captura del programa**
-
-</p>
 
 ---
 
@@ -137,21 +118,15 @@ Son ampliamente utilizados para representar información tabular, operaciones ma
 
 ### 💻 Ejemplo en Lenguaje C
 
-> *(Aquí colocaré el código del arreglo bidimensional.)*
+<img width="667" height="641" alt="i4" src="https://github.com/user-attachments/assets/cdec9660-e5fc-41c4-b519-3835bc0f6dfe" />
 
-```c
-// Código del ejemplo
-```
 
 ### 🖥️ Ejecución del programa
 
-> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
+<img width="141" height="92" alt="i9" src="https://github.com/user-attachments/assets/7ad7ef91-6678-42ab-8ac7-70f84fdcc698" />
+
 
 <p align="center">
-
-**📷 Captura del programa**
-
-</p>
 
 ---
 
@@ -163,21 +138,15 @@ Este tipo de estructura suele utilizarse para representar conjuntos de matrices,
 
 ### 💻 Ejemplo en Lenguaje C
 
-> *(Aquí colocaré el código del arreglo tridimensional.)*
+<img width="557" height="855" alt="i5" src="https://github.com/user-attachments/assets/89b311bf-ff3f-4d7f-801b-430c7718af09" />
 
-```c
-// Código del ejemplo
-```
 
 ### 🖥️ Ejecución del programa
 
-> *(Insertar aquí la captura del programa ejecutándose en VS Code.)*
+<img width="295" height="190" alt="i10" src="https://github.com/user-attachments/assets/e959d98a-3249-45d6-84fe-a6afd0bc4437" />
+
 
 <p align="center">
-
-**📷 Captura del programa**
-
-</p>
 
 ---
 
