@@ -48,5 +48,45 @@ LOS RECURSOS NATURALES NO RENOVABLES<br>
 | **🧩 Unidad 2** | Estructuras Condicionales y Repetitivas. | [📁 Ver Unidad 2](./Unidad2/) |
 | **📊 Unidad 3** | Modulos y Arreglos. | [📁 Ver Unidad 3](./Unidad3/) |
 
+<div align="center">
+
+# 📁 Portafolio: Teoría de la Programación
+
+## 📂 Índice del Portafolio
+<!-- Comienzo de la tabla centrada -->
+<table>
+  <thead>
+    <tr>
+      <th align="left">Unidad / Sección</th>
+      <th align="left">Descripción</th>
+      <th align="center">Enlace Directo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>📚 Bibliografía</b></td>
+      <td>Referencias teóricas y fuentes de consulta en formato IEEE.</td>
+      <td><a href="./Bibliografia/">📁 Ir a Bibliografía</a></td>
+    </tr>
+    <tr>
+      <td><b>⚡ Unidad 1</b></td>
+      <td>Fundamentos de la Programación..</td>
+      <td><a href="./Unidad1/">📁 Ver Unidad 1</a></td>
+    </tr>
+    <tr>
+      <td><b>🧩 Unidad 2</b></td>
+      <td>Estructuras Condicionales y Repetitivas.</td>
+      <td><a href="./Unidad2/">📁 Ver Unidad 2</a></td>
+    </tr>
+    <tr>
+      <td><b>📊 Unidad 3</b></td>
+      <td>Modulos y Arreglos.</td>
+      <td><a href="./Unidad3/">📁 Ver Unidad 3</a></td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
 
 
