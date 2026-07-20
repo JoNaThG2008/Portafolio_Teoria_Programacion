@@ -43,9 +43,10 @@ LOS RECURSOS NATURALES NO RENOVABLES<br>
 
 | Unidad / Sección | Descripción | Enlace Directo |
 | :--- | :--- | :--- |
+| **📚 Bibliografía** | Referencias teóricas y fuentes de consulta en formato IEEE. | [📁 Ir a Bibliografía](./Bibliografia/) |
 | **⚡ Unidad 1** | Fundamentos de la Programación. | [📁 Ver Unidad 1](./Unidad1/) |
 | **🧩 Unidad 2** | Estructuras Condicionales y Repetitivas. | [📁 Ver Unidad 2](./Unidad2/) |
 | **📊 Unidad 3** | Modulos y Arreglos. | [📁 Ver Unidad 3](./Unidad3/) |
-| **📚 Bibliografía** | Referencias teóricas y fuentes de consulta en formato IEEE. | [📁 Ir a Bibliografía](./Bibliografia/) |
+
 
 
