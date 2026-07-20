@@ -48,9 +48,20 @@ En el **paso por valor**, la función recibe una copia del dato enviado desde el
 Este mecanismo resulta útil cuando únicamente se desea utilizar el valor recibido sin alterar la información almacenada en la variable del programa principal.
 
 ### 💻 Ejemplo en Lenguaje C
-<img width="731" height="522" alt="i1" src="https://github.com/user-attachments/assets/a1e6295e-879f-40f0-9e45-73b4ff1f9af3" />
 
+<div align="center">
 
+<img src="i1.png" width="600">
+
+</div>
+
+### 📌 Resultado del programa
+
+<div align="center">
+
+<img src="i6.png" width="600">
+
+</div>
 
 ---
 
@@ -62,8 +73,19 @@ Este tipo de paso de parámetros resulta especialmente útil cuando se desea mod
 
 ### 💻 Ejemplo en Lenguaje C
 
-<img width="682" height="487" alt="i2" src="https://github.com/user-attachments/assets/90f69692-046d-46bf-8695-57f100a388ec" />
+<div align="center">
 
+<img src="i2.png" width="600">
+
+</div>
+
+### 📌 Resultado del programa
+
+<div align="center">
+
+<img src="i7.png" width="600">
+
+</div>
 
 ---
 
@@ -82,8 +104,20 @@ Un arreglo unidimensional corresponde a una lista de elementos almacenados de fo
 Se utilizan principalmente para almacenar listas de números, nombres, calificaciones y otros conjuntos de datos lineales.
 
 ### 💻 Ejemplo en Lenguaje C
-<img width="497" height="360" alt="i3" src="https://github.com/user-attachments/assets/899434aa-ac9a-4107-9e82-9d4fe9b09dd9" />
 
+<div align="center">
+
+<img src="i3.png" width="600">
+
+</div>
+
+### 📌 Resultado del programa
+
+<div align="center">
+
+<img src="i8.png" width="600">
+
+</div>
 
 ---
 
@@ -95,7 +129,19 @@ Son ampliamente utilizados para representar información tabular, operaciones ma
 
 ### 💻 Ejemplo en Lenguaje C
 
-<img width="667" height="641" alt="i4" src="https://github.com/user-attachments/assets/5d6ef8e6-65f4-43b1-86d5-390140a45cae" />
+<div align="center">
+
+<img src="i4.png" width="600">
+
+</div>
+
+### 📌 Resultado del programa
+
+<div align="center">
+
+<img src="i9.png" width="600">
+
+</div>
 
 ---
 
@@ -107,7 +153,19 @@ Este tipo de estructura suele utilizarse para representar conjuntos de matrices,
 
 ### 💻 Ejemplo en Lenguaje C
 
-<img width="557" height="855" alt="i5" src="https://github.com/user-attachments/assets/409f8094-7d9a-4e4d-b7be-e5ba3364dffd" />
+<div align="center">
+
+<img src="i5.png" width="600">
+
+</div>
+
+### 📌 Resultado del programa
+
+<div align="center">
+
+<img src="i10.png" width="600">
+
+</div>
 
 ---
 
