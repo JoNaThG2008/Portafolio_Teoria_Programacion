@@ -3,8 +3,6 @@
 # 📘 Unidad 3
 ## Modularidad y Arreglos en Lenguaje C
 
-*"La modularidad y el uso de arreglos permiten desarrollar programas más organizados, reutilizables y eficientes, facilitando la solución de problemas de mayor complejidad mediante una correcta estructuración del código."*
-
 </div>
 
 ---
