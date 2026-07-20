@@ -158,16 +158,6 @@ Con la práctica constante fue posible fortalecer la comprensión de estos temas
 
 ---
 
-# 🤖 Declaración de uso de Inteligencia Artificial Generativa
-
-Durante la elaboración de esta unidad se utilizaron herramientas de Inteligencia Artificial, principalmente **ChatGPT** y **Gemini**, como apoyo al proceso de aprendizaje.
-
-Estas herramientas fueron empleadas para resolver dudas conceptuales sobre modularidad, funciones y arreglos, verificar la lógica de los ejemplos desarrollados en lenguaje C, mejorar la organización del portafolio en formato Markdown y revisar la redacción de los contenidos.
-
-El uso de la Inteligencia Artificial tuvo exclusivamente fines educativos y de apoyo al aprendizaje, respetando en todo momento los principios de integridad académica.
-
----
-
 <div align="center">
 
 ### ✔️ Fin del contenido de la Unidad 3
