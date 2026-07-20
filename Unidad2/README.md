@@ -3,8 +3,6 @@
 # 📘 Unidad 2
 ## Estructuras Condicionales y Repetitivas
 
-*"Las estructuras de control permiten que un programa tome decisiones y repita procesos de manera eficiente, convirtiéndose en uno de los pilares fundamentales de la programación estructurada."*
-
 </div>
 
 ---
