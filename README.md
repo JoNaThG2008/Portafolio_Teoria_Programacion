@@ -39,5 +39,13 @@ LOS RECURSOS NATURALES NO RENOVABLES<br>
 ---
                                                     
 # Portafolio Teoria de la Programación 
+## 📂 Índice del Portafolio
+
+| Unidad / Sección | Descripción | Enlace Directo |
+| :--- | :--- | :--- |
+| **📚 Bibliografía** | Referencias teóricas y fuentes de consulta en formato IEEE. | [📁 Ir a Bibliografía](./Bibliografia/) |
+| **⚡ Unidad 1** | Introducción a la teoría de la programación y conceptos básicos. | [📁 Ver Unidad 1](./Unidad1/) |
+| **🧩 Unidad 2** | Modularidad: Funciones, procedimientos y paso de parámetros. | [📁 Ver Unidad 2](./Unidad2/) |
+| **📊 Unidad 3** | Arreglos: Estructuras de datos estáticas (Vectores y Matrices). | [📁 Ver Unidad 3](./Unidad3/) |
 
 
